@@ -1,0 +1,1108 @@
+2025-06-03 02:10:32,374 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 02:10:32,375 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 02:10:32,375 - INFO - Headers:
+2025-06-03 02:10:32,375 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 02:10:32,375 - INFO - Accept : application/json
+2025-06-03 02:10:32,375 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 02:10:32,375 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 02:10:32,375 - INFO - Accept-Charset : utf-8
+2025-06-03 02:10:32,376 - INFO - -- END Twilio API Request --
+2025-06-03 02:10:36,185 - INFO - Response Status Code: 400
+2025-06-03 02:10:36,186 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '182', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 20:40:35 GMT', 'X-Twilio-Error-Code': '63031', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ15a2a94dd98a2451a46a4504483ae59d', 'Twilio-Request-Duration': '0.063', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 0e070999ce883527d4faa81c756e05fe.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'OLv8WMHPu_9iYj-RhQPfZwZ7Un-Wcj0uU0SGJORtT5YHFtZz3scXVw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 02:11:12,307 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 02:11:12,308 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 02:11:12,308 - INFO - Headers:
+2025-06-03 02:11:12,308 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 02:11:12,308 - INFO - Accept : application/json
+2025-06-03 02:11:12,308 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 02:11:12,308 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 02:11:12,308 - INFO - Accept-Charset : utf-8
+2025-06-03 02:11:12,308 - INFO - -- END Twilio API Request --
+2025-06-03 02:11:15,741 - INFO - Response Status Code: 201
+2025-06-03 02:11:15,741 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '880', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 20:41:15 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ036826b1d3d51a483b0eb478c8ea886b', 'Twilio-Request-Duration': '0.108', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 1f29f8f19d4237db6ec761d59273aa20.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'Z62H4ZomrlHoTzKi3uNvlKu-U_RNY7EbZKnVEGXtAAFeAH_djOffnw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 02:13:35,494 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 02:13:35,494 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 02:13:35,494 - INFO - Headers:
+2025-06-03 02:13:35,494 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 02:13:35,494 - INFO - Accept : application/json
+2025-06-03 02:13:35,494 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 02:13:35,495 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 02:13:35,495 - INFO - Accept-Charset : utf-8
+2025-06-03 02:13:35,495 - INFO - -- END Twilio API Request --
+2025-06-03 02:13:35,911 - INFO - Response Status Code: 201
+2025-06-03 02:13:35,911 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '880', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 20:43:35 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQea80c39681fe19d2dd7d25859ccecc7e', 'Twilio-Request-Duration': '0.093', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 2d7c85577fd4606da8f295d1c26f0bb6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'PDi-Xj162DyJoBDNWn7Yu7hEj6b1voknJmq2ISYFvKFnMlX-aOIluQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 02:51:08,112 - INFO - Interview Notification Bot initialized successfully
+2025-06-03 02:51:08,112 - INFO - Testing bot setup...
+2025-06-03 02:51:08,504 - INFO - Google Sheets: Connected (6 rows)
+2025-06-03 02:51:11,063 - INFO - AI Message Generation: Working
+2025-06-03 02:51:11,063 - INFO - Sample message: Hi Test User,
+
+Congratulations on reaching the technical interview stage! 🎉 We were very impressed w...
+2025-06-03 02:51:11,063 - INFO - WhatsApp Sender: Configuration valid
+2025-06-03 02:51:11,063 - INFO - All tests passed! Bot is ready to use.
+2025-06-03 02:51:11,126 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 02:51:11,126 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 02:51:11,126 - INFO - Headers:
+2025-06-03 02:51:11,126 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 02:51:11,126 - INFO - Accept : application/json
+2025-06-03 02:51:11,126 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 02:51:11,126 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 02:51:11,126 - INFO - Accept-Charset : utf-8
+2025-06-03 02:51:11,141 - INFO - -- END Twilio API Request --
+2025-06-03 02:51:12,036 - INFO - Response Status Code: 201
+2025-06-03 02:51:12,036 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '860', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 21:21:11 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ457718e7bd62d0e79d9f12f58d67b5ab', 'Twilio-Request-Duration': '0.099', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 381d29554e7a7f9567dd56c5b74f5d7c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'jAM1CuaWm1i609kiYYww21OVOWhkT43QY0F7ji_TL7NapjxeOrCAAQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 02:51:25,778 - INFO - Interview Notification Bot initialized successfully
+2025-06-03 02:51:25,778 - INFO - Starting Interview Notification Bot in continuous mode...
+2025-06-03 02:51:25,778 - INFO - Bot scheduled to check every 5 minutes
+2025-06-03 02:56:25,791 - INFO - Checking for pending notifications...
+2025-06-03 02:56:26,451 - INFO - Found 2 pending notifications
+2025-06-03 02:56:26,451 - ERROR - Error processing candidate Prince: 'int' object has no attribute 'replace'
+2025-06-03 02:56:28,452 - ERROR - Error processing candidate Jane Smith: 'int' object has no attribute 'replace'
+2025-06-03 03:01:30,458 - INFO - Checking for pending notifications...
+2025-06-03 03:01:31,286 - INFO - Found 2 pending notifications
+2025-06-03 03:01:31,286 - ERROR - Error processing candidate Prince: 'int' object has no attribute 'replace'
+2025-06-03 03:01:33,287 - ERROR - Error processing candidate Jane Smith: 'int' object has no attribute 'replace'
+2025-06-03 03:02:26,682 - INFO - Interview Notification Bot initialized successfully
+2025-06-03 03:02:26,682 - INFO - Starting Interview Notification Bot in continuous mode...
+2025-06-03 03:02:26,682 - INFO - Bot scheduled to check every 5 minutes
+2025-06-03 03:07:26,691 - INFO - Checking for pending notifications...
+2025-06-03 03:07:27,391 - INFO - Found 2 pending notifications
+2025-06-03 03:07:27,391 - INFO - Processing candidate: Prince
+2025-06-03 03:07:27,391 - INFO - Phone number received: 919263222643 (type: <class 'int'>)
+2025-06-03 03:07:27,391 - ERROR - Error processing candidate Prince: 'int' object has no attribute 'replace'
+2025-06-03 03:07:27,391 - ERROR - Candidate data: {'Candidate_ID': 1, 'Name': 'Prince', 'Phone': 919263222643, 'Email': 'princeiitbombay@gmail.com', 'Current_Round': 'Technical', 'Status': 'Pending', 'Interview_Date': '2025-06-04 10:00 AM', 'Next_Round': 'CEO Interview', 'Last_Updated': '2025-06-03 2:30:00', 'Notification_Sent': 'No'}
+2025-06-03 03:07:29,394 - INFO - Processing candidate: Jane Smith
+2025-06-03 03:07:29,394 - INFO - Phone number received: 917339122643 (type: <class 'int'>)
+2025-06-03 03:07:29,394 - ERROR - Error processing candidate Jane Smith: 'int' object has no attribute 'replace'
+2025-06-03 03:07:29,394 - ERROR - Candidate data: {'Candidate_ID': 2, 'Name': 'Jane Smith', 'Phone': 917339122643, 'Email': 'jane@test.com', 'Current_Round': 'New', 'Status': 'Cleared', 'Interview_Date': '2025-06-03 14:00 PM', 'Next_Round': 'HR Round', 'Last_Updated': '2025-06-03 2:30:00', 'Notification_Sent': 'No'}
+2025-06-03 03:12:58,496 - INFO - Interview Notification Bot initialized successfully
+2025-06-03 03:12:58,496 - INFO - Starting Interview Notification Bot in continuous mode...
+2025-06-03 03:12:58,496 - INFO - Bot scheduled to check every 5 minutes
+2025-06-03 03:17:58,510 - INFO - Checking for pending notifications...
+2025-06-03 03:17:59,040 - INFO - Found 2 pending notifications
+2025-06-03 03:17:59,040 - INFO - Processing candidate: Prince
+2025-06-03 03:17:59,040 - INFO - Phone number received: 919263222643 (type: <class 'int'>)
+2025-06-03 03:17:59,040 - ERROR - Error processing candidate Prince: 'WhatsAppSender' object has no attribute 'validate_phone_number'
+2025-06-03 03:17:59,040 - ERROR - Candidate data: {'Candidate_ID': 1, 'Name': 'Prince', 'Phone': 919263222643, 'Email': 'princeiitbombay@gmail.com', 'Current_Round': 'Screening', 'Status': 'Pending', 'Interview_Date': '2025-06-04 10:00 AM', 'Next_Round': 'CEO Interview', 'Last_Updated': '2025-06-03 2:30:00', 'Notification_Sent': 'No'}
+2025-06-03 03:18:01,053 - INFO - Processing candidate: Jane Smith
+2025-06-03 03:18:01,053 - INFO - Phone number received: 917339122643 (type: <class 'int'>)
+2025-06-03 03:18:01,053 - ERROR - Error processing candidate Jane Smith: 'WhatsAppSender' object has no attribute 'validate_phone_number'
+2025-06-03 03:18:01,053 - ERROR - Candidate data: {'Candidate_ID': 2, 'Name': 'Jane Smith', 'Phone': 917339122643, 'Email': 'jane@test.com', 'Current_Round': 'New', 'Status': 'Cleared', 'Interview_Date': '2025-06-03 14:00 PM', 'Next_Round': 'XFanatical', 'Last_Updated': '2025-06-03 2:30:00', 'Notification_Sent': 'No'}
+2025-06-03 03:21:42,629 - INFO - Interview Notification Bot initialized successfully
+2025-06-03 03:21:42,629 - INFO - Running bot once for testing...
+2025-06-03 03:21:42,629 - INFO - Checking for pending notifications...
+2025-06-03 03:21:42,990 - INFO - Found 2 pending notifications
+2025-06-03 03:21:42,990 - INFO - Processing candidate: Prince
+2025-06-03 03:21:42,990 - INFO - Phone number received: 919263222643 (type: <class 'int'>)
+2025-06-03 03:21:42,990 - INFO - Generating AI message for Prince...
+2025-06-03 03:21:45,297 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 03:21:45,376 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 03:21:45,376 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 03:21:45,376 - INFO - Headers:
+2025-06-03 03:21:45,376 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 03:21:45,376 - INFO - Accept : application/json
+2025-06-03 03:21:45,376 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 03:21:45,376 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 03:21:45,376 - INFO - Accept-Charset : utf-8
+2025-06-03 03:21:45,376 - INFO - -- END Twilio API Request --
+2025-06-03 03:21:48,807 - INFO - Response Status Code: 201
+2025-06-03 03:21:48,807 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1120', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 21:51:48 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2049c0e51c40d59b0fe9a32cbd9aaf81', 'Twilio-Request-Duration': '0.120', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 4a4fb1e6e485fe801e6755c726bb61ae.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'cJeM76mX-JUj0hKp7sT24LoYKZYQkBzmpkenwolBe41QuBMJJk6BZA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 03:21:49,548 - INFO - Successfully notified Prince
+2025-06-03 03:21:49,548 - INFO - Message preview: Hi Prince,
+
+This is an update on your screening.  The status is currently Pending.  We are reviewing...
+2025-06-03 03:21:51,559 - INFO - Processing candidate: Jane Smith
+2025-06-03 03:21:51,559 - INFO - Phone number received: 917339122643 (type: <class 'int'>)
+2025-06-03 03:21:51,559 - INFO - Generating AI message for Jane Smith...
+2025-06-03 03:21:52,899 - INFO - Sending WhatsApp message to Jane Smith (917339122643)...
+2025-06-03 03:21:52,899 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 03:21:52,899 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 03:21:52,899 - INFO - Headers:
+2025-06-03 03:21:52,899 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 03:21:52,899 - INFO - Accept : application/json
+2025-06-03 03:21:52,899 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 03:21:52,899 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 03:21:52,899 - INFO - Accept-Charset : utf-8
+2025-06-03 03:21:52,899 - INFO - -- END Twilio API Request --
+2025-06-03 03:21:53,213 - INFO - Response Status Code: 201
+2025-06-03 03:21:53,213 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1276', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 21:51:52 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQef9008b4783a7d27b5acb82d6e5602be', 'Twilio-Request-Duration': '0.088', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 4a4fb1e6e485fe801e6755c726bb61ae.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'DfmpXxaa50ayce3H9gSOTgbZJiPIvDpFi4yLIp25wHe-KQ8KR8RyZA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 03:21:53,930 - INFO - Successfully notified Jane Smith
+2025-06-03 03:21:53,930 - INFO - Message preview: Jane, HUGE congratulations on clearing the New! 🎉🎉🎉  This is fantastic news and a testament to all y...
+2025-06-03 03:22:27,296 - INFO - Interview Notification Bot initialized successfully
+2025-06-03 03:22:27,296 - INFO - Starting Interview Notification Bot in continuous mode...
+2025-06-03 03:22:27,296 - INFO - Bot scheduled to check every 5 minutes
+2025-06-03 03:27:27,313 - INFO - Checking for pending notifications...
+2025-06-03 03:27:27,833 - INFO - Found 2 pending notifications
+2025-06-03 03:27:27,833 - INFO - Processing candidate: Prince
+2025-06-03 03:27:27,833 - INFO - Phone number received: 919263222643 (type: <class 'int'>)
+2025-06-03 03:27:27,833 - INFO - Generating AI message for Prince...
+2025-06-03 03:27:30,304 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 03:27:30,382 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 03:27:30,382 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 03:27:30,382 - INFO - Headers:
+2025-06-03 03:27:30,382 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 03:27:30,382 - INFO - Accept : application/json
+2025-06-03 03:27:30,382 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 03:27:30,382 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 03:27:30,382 - INFO - Accept-Charset : utf-8
+2025-06-03 03:27:30,382 - INFO - -- END Twilio API Request --
+2025-06-03 03:27:33,811 - INFO - Response Status Code: 201
+2025-06-03 03:27:33,811 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1279', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 21:57:33 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ54497443e819729ec0c7533ff67db7ad', 'Twilio-Request-Duration': '0.122', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 109486c6716bcd12a9f0404a8ac237ca.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'gxRWLg_AwQGGQ5IFkfKTlQivzwQifAH2I0NLcE3QBn2OM9ThHSW3mQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 03:27:34,548 - INFO - Successfully notified Prince
+2025-06-03 03:27:34,549 - INFO - Message preview: Dear Prince,
+
+We are pleased to inform you that your screening was successful, and you have been sel...
+2025-06-03 03:27:36,549 - INFO - Processing candidate: Jane Smith
+2025-06-03 03:27:36,549 - INFO - Phone number received: 917339122643 (type: <class 'int'>)
+2025-06-03 03:27:36,549 - INFO - Generating AI message for Jane Smith...
+2025-06-03 03:27:37,888 - INFO - Sending WhatsApp message to Jane Smith (917339122643)...
+2025-06-03 03:27:37,888 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 03:27:37,888 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 03:27:37,888 - INFO - Headers:
+2025-06-03 03:27:37,888 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 03:27:37,888 - INFO - Accept : application/json
+2025-06-03 03:27:37,888 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 03:27:37,888 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 03:27:37,888 - INFO - Accept-Charset : utf-8
+2025-06-03 03:27:37,888 - INFO - -- END Twilio API Request --
+2025-06-03 03:27:38,657 - INFO - Response Status Code: 201
+2025-06-03 03:27:38,657 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1307', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 21:57:38 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2cc3b542e9d75b070011d15ee151b951', 'Twilio-Request-Duration': '0.111', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 109486c6716bcd12a9f0404a8ac237ca.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'FrgMM4xvSwjia_Xw_dQG21OkZgR7nxBDTR0Qb-AI4omCsUyhz5v8vg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 03:27:39,451 - INFO - Successfully notified Jane Smith
+2025-06-03 03:27:39,451 - INFO - Message preview: Hey Jane! 🎉🎉🎉
+
+Just heard the fantastic news – you absolutely smashed your Panel Interview!  Huge co...
+2025-06-03 03:32:41,457 - INFO - Checking for pending notifications...
+2025-06-03 03:32:42,076 - INFO - No pending notifications found
+2025-06-03 03:37:42,095 - INFO - Checking for pending notifications...
+2025-06-03 03:37:42,657 - INFO - No pending notifications found
+2025-06-03 03:42:42,662 - INFO - Checking for pending notifications...
+2025-06-03 03:42:43,258 - INFO - No pending notifications found
+2025-06-03 03:47:43,267 - INFO - Checking for pending notifications...
+2025-06-03 03:47:43,895 - INFO - Found 2 pending notifications
+2025-06-03 03:47:43,895 - INFO - Processing candidate: Prince
+2025-06-03 03:47:43,895 - INFO - Phone number received: 919263222643 (type: <class 'int'>)
+2025-06-03 03:47:43,895 - INFO - Skipping Prince - already processed
+2025-06-03 03:47:45,903 - INFO - Processing candidate: Jane Smith
+2025-06-03 03:47:45,903 - INFO - Phone number received: 917339122643 (type: <class 'int'>)
+2025-06-03 03:47:45,903 - INFO - Skipping Jane Smith - already processed
+2025-06-03 03:52:47,910 - INFO - Checking for pending notifications...
+2025-06-03 03:52:48,447 - INFO - Found 2 pending notifications
+2025-06-03 03:52:48,447 - INFO - Processing candidate: Prince
+2025-06-03 03:52:48,447 - INFO - Phone number received: 919263222643 (type: <class 'int'>)
+2025-06-03 03:52:48,447 - INFO - Skipping Prince - already processed
+2025-06-03 03:52:50,452 - INFO - Processing candidate: Jane Smith
+2025-06-03 03:52:50,452 - INFO - Phone number received: 917339122643 (type: <class 'int'>)
+2025-06-03 03:52:50,452 - INFO - Skipping Jane Smith - already processed
+2025-06-03 03:57:52,458 - INFO - Checking for pending notifications...
+2025-06-03 03:57:53,197 - INFO - Found 2 pending notifications
+2025-06-03 03:57:53,197 - INFO - Processing candidate: Prince
+2025-06-03 03:57:53,197 - INFO - Phone number received: 919263222643 (type: <class 'int'>)
+2025-06-03 03:57:53,197 - INFO - Skipping Prince - already processed
+2025-06-03 03:57:55,203 - INFO - Processing candidate: Jane Smith
+2025-06-03 03:57:55,203 - INFO - Phone number received: 917339122643 (type: <class 'int'>)
+2025-06-03 03:57:55,203 - INFO - Skipping Jane Smith - already processed
+2025-06-03 04:02:57,209 - INFO - Checking for pending notifications...
+2025-06-03 04:02:57,950 - INFO - Found 2 pending notifications
+2025-06-03 04:02:57,950 - INFO - Processing candidate: Prince
+2025-06-03 04:02:57,950 - INFO - Phone number received: 919263222643 (type: <class 'int'>)
+2025-06-03 04:02:57,950 - INFO - Skipping Prince - already processed
+2025-06-03 04:02:59,962 - INFO - Processing candidate: Jane Smith
+2025-06-03 04:02:59,962 - INFO - Phone number received: 917339122643 (type: <class 'int'>)
+2025-06-03 04:02:59,962 - INFO - Skipping Jane Smith - already processed
+2025-06-03 04:03:10,309 - INFO - Interview Notification Bot initialized successfully
+2025-06-03 04:03:10,309 - INFO - Starting Interview Notification Bot in continuous mode...
+2025-06-03 04:03:10,309 - INFO - Bot scheduled to check every 5 minutes
+2025-06-03 04:08:10,323 - INFO - Checking for pending notifications...
+2025-06-03 04:08:10,843 - INFO - Found 2 pending notifications
+2025-06-03 04:08:10,845 - INFO - Processing candidate: Prince
+2025-06-03 04:08:10,845 - INFO - Phone number received: 919263222643 (type: <class 'int'>)
+2025-06-03 04:08:10,845 - INFO - Generating AI message for Prince...
+2025-06-03 04:08:13,501 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 04:08:13,579 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 04:08:13,579 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 04:08:13,579 - INFO - Headers:
+2025-06-03 04:08:13,579 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 04:08:13,579 - INFO - Accept : application/json
+2025-06-03 04:08:13,579 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 04:08:13,579 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 04:08:13,579 - INFO - Accept-Charset : utf-8
+2025-06-03 04:08:13,579 - INFO - -- END Twilio API Request --
+2025-06-03 04:08:17,850 - INFO - Response Status Code: 201
+2025-06-03 04:08:17,850 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1383', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 22:38:17 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ350650295d0ed46fbfd7244ab47c71d8', 'Twilio-Request-Duration': '0.118', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 0e070999ce883527d4faa81c756e05fe.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'TXBD_uA_sxC0L7i93uURe6ipKlkT2TUBpyJLGDjqUofKDlRZHbqnaw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 04:08:18,725 - INFO - Successfully notified Prince
+2025-06-03 04:08:18,725 - INFO - Message preview: Subject: HR Interview Update - [Company Name]
+
+Dear Prince,
+
+This message confirms that you have bee...
+2025-06-03 04:08:20,736 - INFO - Processing candidate: Jane Smith
+2025-06-03 04:08:20,736 - INFO - Phone number received: 917339122643 (type: <class 'int'>)
+2025-06-03 04:08:20,736 - INFO - Generating AI message for Jane Smith...
+2025-06-03 04:08:22,206 - INFO - Sending WhatsApp message to Jane Smith (917339122643)...
+2025-06-03 04:08:22,206 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 04:08:22,206 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 04:08:22,206 - INFO - Headers:
+2025-06-03 04:08:22,207 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 04:08:22,207 - INFO - Accept : application/json
+2025-06-03 04:08:22,207 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 04:08:22,207 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 04:08:22,207 - INFO - Accept-Charset : utf-8
+2025-06-03 04:08:22,207 - INFO - -- END Twilio API Request --
+2025-06-03 04:08:22,962 - INFO - Response Status Code: 201
+2025-06-03 04:08:22,962 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1376', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 22:38:22 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa3c21924d1758cdd4a3c80600a9446de', 'Twilio-Request-Duration': '0.096', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 0e070999ce883527d4faa81c756e05fe.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'h8YG0iNLf291R1PsGOQnMhHpcY8Vt9V6lguoNwPomv04L4IW4-SEoA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 04:08:23,751 - INFO - Successfully notified Jane Smith
+2025-06-03 04:08:23,751 - INFO - Message preview: Hi Jane,
+
+This is a notification that your CEO Round, scheduled for [Date and Time], is now marked a...
+2025-06-03 04:11:39,718 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 04:14:38,268 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 04:14:38,268 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-03 04:14:38,268 - INFO - Bot will check for changes every 60 seconds
+2025-06-03 04:14:38,613 - INFO - Initialized sheet monitoring
+2025-06-03 04:15:39,046 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:16:39,434 - INFO - No changes detected in sheet
+2025-06-03 04:17:39,875 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:17:39,891 - INFO - Detected change in row for Prince
+2025-06-03 04:17:39,891 - INFO - Detected change in row for Jane Smith
+2025-06-03 04:17:39,891 - INFO - Found 2 changed rows
+2025-06-03 04:17:39,891 - INFO - Processing candidate: Prince
+2025-06-03 04:17:39,891 - INFO - Generating AI message for Prince...
+2025-06-03 04:17:45,322 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 04:17:45,400 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 04:17:45,400 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 04:17:45,400 - INFO - Headers:
+2025-06-03 04:17:45,400 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 04:17:45,400 - INFO - Accept : application/json
+2025-06-03 04:17:45,400 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 04:17:45,400 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 04:17:45,400 - INFO - Accept-Charset : utf-8
+2025-06-03 04:17:45,400 - INFO - -- END Twilio API Request --
+2025-06-03 04:17:48,825 - INFO - Response Status Code: 201
+2025-06-03 04:17:48,825 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1244', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 22:47:48 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ5198e448d25bc787f0cb8b495e858c0c', 'Twilio-Request-Duration': '0.115', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 d09c5b9f0ed9f1b6b50d896f134016f4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'YB8riPSrxfaJv0IJakqF5ad56jG5D963vFcv-O1F4Q9EiRvD4Nmv2w==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 04:17:49,576 - INFO - Successfully notified Prince
+2025-06-03 04:17:49,576 - INFO - Message preview: Hi Prince,
+
+Thank you for taking the time to interview with us today. We appreciate you sharing your...
+2025-06-03 04:17:52,577 - INFO - Processing candidate: Jane Smith
+2025-06-03 04:17:52,577 - INFO - Generating AI message for Jane Smith...
+2025-06-03 04:17:54,829 - INFO - Sending WhatsApp message to Jane Smith (917339122643)...
+2025-06-03 04:17:54,829 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 04:17:54,829 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 04:17:54,829 - INFO - Headers:
+2025-06-03 04:17:54,829 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 04:17:54,829 - INFO - Accept : application/json
+2025-06-03 04:17:54,829 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 04:17:54,829 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 04:17:54,829 - INFO - Accept-Charset : utf-8
+2025-06-03 04:17:54,829 - INFO - -- END Twilio API Request --
+2025-06-03 04:17:55,175 - INFO - Response Status Code: 201
+2025-06-03 04:17:55,175 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1143', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 22:47:54 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ51f82961384d588d49e210d027bd11a7', 'Twilio-Request-Duration': '0.110', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 d09c5b9f0ed9f1b6b50d896f134016f4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': '6hpzMdEVdY6hp2wC4-Yj_-VBh6Oe56o2uge_Xj4Cl0mHAstMzI1F0Q==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 04:17:55,904 - INFO - Successfully notified Jane Smith
+2025-06-03 04:17:55,905 - INFO - Message preview: Hi Jane,
+
+This is to confirm that your CEO Round has been completed.  Thank you for your time and in...
+2025-06-03 04:18:59,288 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:19:59,652 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:19:59,652 - INFO - Detected change in row for Prince
+2025-06-03 04:19:59,652 - INFO - Detected change in row for Jane Smith
+2025-06-03 04:19:59,652 - INFO - Found 2 changed rows
+2025-06-03 04:19:59,652 - INFO - Processing candidate: Prince
+2025-06-03 04:19:59,652 - INFO - Generating AI message for Prince...
+2025-06-03 04:20:00,817 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 04:20:00,817 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 04:20:00,817 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 04:20:00,817 - INFO - Headers:
+2025-06-03 04:20:00,817 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 04:20:00,817 - INFO - Accept : application/json
+2025-06-03 04:20:00,817 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 04:20:00,817 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 04:20:00,817 - INFO - Accept-Charset : utf-8
+2025-06-03 04:20:00,817 - INFO - -- END Twilio API Request --
+2025-06-03 04:20:01,147 - INFO - Response Status Code: 201
+2025-06-03 04:20:01,147 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1248', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 22:50:00 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3033471d4520b0e7188027d3b2b6ad50', 'Twilio-Request-Duration': '0.111', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 d09c5b9f0ed9f1b6b50d896f134016f4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'Q5NES7nbeFoZoMrndVPdGjv2K85cleTrOg7RjvuKWbwm5CwxDr1GwA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 04:20:02,003 - INFO - Successfully notified Prince
+2025-06-03 04:20:02,003 - INFO - Message preview: Subject: Screening Update - Application Accepted
+
+Dear Prince,
+
+We are pleased to inform you that yo...
+2025-06-03 04:20:05,005 - INFO - Processing candidate: Jane Smith
+2025-06-03 04:20:05,005 - INFO - Skipping Jane Smith - same notification sent recently (cooldown: 30.0 minutes)
+2025-06-03 04:21:08,366 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:22:08,752 - INFO - No changes detected in sheet
+2025-06-03 04:23:09,119 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:24:09,474 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:24:09,474 - INFO - Detected change in row for Prince
+2025-06-03 04:24:09,474 - INFO - Found 1 changed rows
+2025-06-03 04:24:09,474 - INFO - Processing candidate: Prince
+2025-06-03 04:24:09,474 - INFO - Skipping Prince - hourly limit exceeded (2/hour)
+2025-06-03 04:24:40,783 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 04:24:40,783 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-03 04:24:40,783 - INFO - Bot will check for changes every 60 seconds
+2025-06-03 04:24:41,100 - INFO - Initialized sheet monitoring
+2025-06-03 04:25:41,610 - INFO - No changes detected in sheet
+2025-06-03 04:26:42,095 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:26:42,095 - INFO - Detected change in row for Prince
+2025-06-03 04:26:42,095 - INFO - Found 1 changed rows
+2025-06-03 04:26:42,095 - INFO - Processing candidate: Prince
+2025-06-03 04:26:42,095 - INFO - Generating AI message for Prince...
+2025-06-03 04:26:43,430 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 04:26:43,511 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 04:26:43,511 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 04:26:43,511 - INFO - Headers:
+2025-06-03 04:26:43,511 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 04:26:43,511 - INFO - Accept : application/json
+2025-06-03 04:26:43,511 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 04:26:43,511 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 04:26:43,511 - INFO - Accept-Charset : utf-8
+2025-06-03 04:26:43,511 - INFO - -- END Twilio API Request --
+2025-06-03 04:26:46,928 - INFO - Response Status Code: 201
+2025-06-03 04:26:46,928 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1307', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 22:56:46 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQf46bdcf32161faee4541c3ca51976dad', 'Twilio-Request-Duration': '0.114', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 02b87135ef4ebf435ae83274a19e0a76.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'I-OCAJzFGPocUz40s0D1mtpXx_SQ1xDK8Wzcv71ZO_e9APYfX8581w==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 04:26:47,699 - INFO - Successfully notified Prince
+2025-06-03 04:26:47,700 - INFO - Message preview: Prince! 🎉🎉🎉 HUGE congratulations on smashing your Technical round!  That's fantastic news and a test...
+2025-06-03 04:27:51,057 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:28:51,425 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:29:51,767 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:29:51,767 - INFO - Detected change in row for Prince
+2025-06-03 04:29:51,767 - INFO - Found 1 changed rows
+2025-06-03 04:29:51,767 - INFO - Processing candidate: Prince
+2025-06-03 04:29:51,767 - INFO - Generating AI message for Prince...
+2025-06-03 04:29:53,145 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 04:29:53,145 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 04:29:53,145 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 04:29:53,145 - INFO - Headers:
+2025-06-03 04:29:53,145 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 04:29:53,145 - INFO - Accept : application/json
+2025-06-03 04:29:53,145 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 04:29:53,145 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 04:29:53,145 - INFO - Accept-Charset : utf-8
+2025-06-03 04:29:53,145 - INFO - -- END Twilio API Request --
+2025-06-03 04:29:53,908 - INFO - Response Status Code: 201
+2025-06-03 04:29:53,908 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1326', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 22:59:53 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ082705bc741ad438b8b519f07037bc68', 'Twilio-Request-Duration': '0.100', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 02b87135ef4ebf435ae83274a19e0a76.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'sIJuWNlMSZDXD2hoEVbyjB-slw6kaS5q_-R6InahIYSlS5fyBU_ktA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 04:29:54,717 - INFO - Successfully notified Prince
+2025-06-03 04:29:54,718 - INFO - Message preview: Hi Prince,
+
+Congratulations on reaching the HR round interview for [Company Name]! 🎉  We're really i...
+2025-06-03 04:30:58,164 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:30:58,164 - INFO - Detected change in row for Prince
+2025-06-03 04:30:58,164 - INFO - Found 1 changed rows
+2025-06-03 04:30:58,164 - INFO - Processing candidate: Prince
+2025-06-03 04:30:58,164 - INFO - Generating AI message for Prince...
+2025-06-03 04:30:59,545 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 04:30:59,545 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 04:30:59,545 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 04:30:59,545 - INFO - Headers:
+2025-06-03 04:30:59,545 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 04:30:59,545 - INFO - Accept : application/json
+2025-06-03 04:30:59,545 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 04:30:59,545 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 04:30:59,545 - INFO - Accept-Charset : utf-8
+2025-06-03 04:30:59,545 - INFO - -- END Twilio API Request --
+2025-06-03 04:31:00,299 - INFO - Response Status Code: 201
+2025-06-03 04:31:00,299 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1323', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 23:01:00 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ768d9d20e2db3d1b9163fd30128e5fa5', 'Twilio-Request-Duration': '0.101', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 02b87135ef4ebf435ae83274a19e0a76.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': '01HzClbdgA13riA2ygBUemeP5hMUr1SPuJzuhsfELbyT-RrIbDNyRA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 04:31:01,098 - INFO - Successfully notified Prince
+2025-06-03 04:31:01,098 - INFO - Message preview: Hey Prince! 🎉🎉🎉
+
+Amazing news! I just heard you absolutely smashed the HR round!  That's incredible,...
+2025-06-03 04:32:04,485 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:33:04,850 - INFO - No changes detected in sheet
+2025-06-03 04:34:05,219 - INFO - No changes detected in sheet
+2025-06-03 04:35:05,589 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:35:05,589 - INFO - Detected change in row for Prince
+2025-06-03 04:35:05,589 - INFO - Found 1 changed rows
+2025-06-03 04:35:05,589 - INFO - Processing candidate: Prince
+2025-06-03 04:35:05,589 - INFO - Generating AI message for Prince...
+2025-06-03 04:35:08,226 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 04:35:08,226 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 04:35:08,226 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 04:35:08,226 - INFO - Headers:
+2025-06-03 04:35:08,226 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 04:35:08,226 - INFO - Accept : application/json
+2025-06-03 04:35:08,226 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 04:35:08,226 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 04:35:08,226 - INFO - Accept-Charset : utf-8
+2025-06-03 04:35:08,226 - INFO - -- END Twilio API Request --
+2025-06-03 04:35:11,668 - INFO - Response Status Code: 201
+2025-06-03 04:35:11,668 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1301', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 23:05:11 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQbf9921bad47f671e960ec8be1b0c55e2', 'Twilio-Request-Duration': '0.117', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5fcc1dafba735acbae7faac5d9739af0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'mpLK_V5JSt8KWVDXQIyvK9RvZHhB0m_fzf-M0cfglcgrVNSkOez4ow==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 04:35:12,376 - INFO - Successfully notified Prince
+2025-06-03 04:35:12,377 - INFO - Message preview: Hey Prince! 🎉
+
+Huge congratulations on making it to the final round CEO interview! That's a fantasti...
+2025-06-03 04:36:15,787 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:37:16,137 - INFO - No changes detected in sheet
+2025-06-03 04:38:16,526 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 04:38:16,526 - INFO - Detected change in row for Prince
+2025-06-03 04:38:16,526 - INFO - Found 1 changed rows
+2025-06-03 04:38:16,526 - INFO - Processing candidate: Prince
+2025-06-03 04:38:16,526 - INFO - Generating AI message for Prince...
+2025-06-03 04:38:18,117 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 04:38:18,117 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 04:38:18,117 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 04:38:18,117 - INFO - Headers:
+2025-06-03 04:38:18,117 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 04:38:18,117 - INFO - Accept : application/json
+2025-06-03 04:38:18,117 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 04:38:18,117 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 04:38:18,117 - INFO - Accept-Charset : utf-8
+2025-06-03 04:38:18,117 - INFO - -- END Twilio API Request --
+2025-06-03 04:38:18,878 - INFO - Response Status Code: 201
+2025-06-03 04:38:18,878 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1171', 'Connection': 'keep-alive', 'Date': 'Mon, 02 Jun 2025 23:08:18 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ0fd4ec3405375ece3938bd64f62eefba', 'Twilio-Request-Duration': '0.094', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5fcc1dafba735acbae7faac5d9739af0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'DmAJbVkbe9N_wCNw71FW7sYaceMfzJIMaW1NDJwSL-Zy-20gTiebUw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 04:38:19,591 - INFO - Successfully notified Prince
+2025-06-03 04:38:19,591 - INFO - Message preview: Hi Prince,
+
+Great news! Your application has been successful, and we're delighted to offer you the p...
+2025-06-03 12:18:50,598 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 12:18:50,598 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-03 12:18:50,598 - INFO - Bot will check for changes every 60 seconds
+2025-06-03 12:18:51,291 - INFO - Initialized sheet monitoring
+2025-06-03 12:19:51,735 - INFO - No changes detected in sheet
+2025-06-03 12:20:52,368 - INFO - No changes detected in sheet
+2025-06-03 12:21:52,838 - INFO - No changes detected in sheet
+2025-06-03 12:22:53,300 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:22:53,301 - INFO - Detected change in row for Jane Smith
+2025-06-03 12:22:53,302 - INFO - Found 1 changed rows
+2025-06-03 12:22:53,302 - INFO - Processing candidate: Jane Smith
+2025-06-03 12:22:53,302 - INFO - Generating AI message for Jane Smith...
+2025-06-03 12:22:55,144 - INFO - Sending WhatsApp message to Jane Smith (917339122643)...
+2025-06-03 12:22:55,228 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 12:22:55,228 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 12:22:55,228 - INFO - Headers:
+2025-06-03 12:22:55,228 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 12:22:55,229 - INFO - Accept : application/json
+2025-06-03 12:22:55,229 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 12:22:55,229 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 12:22:55,229 - INFO - Accept-Charset : utf-8
+2025-06-03 12:22:55,229 - INFO - -- END Twilio API Request --
+2025-06-03 12:22:55,869 - INFO - Response Status Code: 201
+2025-06-03 12:22:55,869 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1298', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 06:52:55 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ4f30e3544c3b2e9e069ee4c22cf10b31', 'Twilio-Request-Duration': '0.106', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 310f78097a148c20abaa7b74a711dbaa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'VvOqLgTZk3QB8P0ECTxh8FeE0saK7DYDIdWnrtEnY3DRmfJAv0SOiA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 12:22:56,706 - INFO - Successfully notified Jane Smith
+2025-06-03 12:22:56,706 - INFO - Message preview: Hi Jane,
+
+Congratulations on reaching the Initial Talk interview stage! 🎉 We're really impressed wit...
+2025-06-03 12:24:00,128 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:25:00,607 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:25:00,608 - INFO - Detected change in row for Jane Smith
+2025-06-03 12:25:00,608 - INFO - Found 1 changed rows
+2025-06-03 12:25:00,609 - INFO - Processing candidate: Jane Smith
+2025-06-03 12:25:00,609 - INFO - Generating AI message for Jane Smith...
+2025-06-03 12:25:02,145 - INFO - Sending WhatsApp message to Jane Smith (917339122643)...
+2025-06-03 12:25:02,145 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 12:25:02,146 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 12:25:02,146 - INFO - Headers:
+2025-06-03 12:25:02,146 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 12:25:02,146 - INFO - Accept : application/json
+2025-06-03 12:25:02,146 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 12:25:02,146 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 12:25:02,147 - INFO - Accept-Charset : utf-8
+2025-06-03 12:25:02,147 - INFO - -- END Twilio API Request --
+2025-06-03 12:25:02,526 - INFO - Response Status Code: 201
+2025-06-03 12:25:02,526 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1319', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 06:55:02 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQfb4bc3a60138b39f2e587efe4533682f', 'Twilio-Request-Duration': '0.137', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 310f78097a148c20abaa7b74a711dbaa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'vyHileYjqVgYgNveTBjJRMdRrM1Lrspd1JcIIUPC0iaaZl6KWWbB1Q==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 12:25:03,342 - INFO - Successfully notified Jane Smith
+2025-06-03 12:25:03,342 - INFO - Message preview: Hi Jane,
+
+Congratulations on reaching the technical interview stage! 🎉 We're really impressed with y...
+2025-06-03 12:26:06,898 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:26:06,898 - INFO - Detected change in row for Jane Smith
+2025-06-03 12:26:06,899 - INFO - Found 1 changed rows
+2025-06-03 12:26:06,899 - INFO - Processing candidate: Jane Smith
+2025-06-03 12:26:06,899 - INFO - Generating AI message for Jane Smith...
+2025-06-03 12:26:08,079 - INFO - Sending WhatsApp message to Jane Smith (917339122643)...
+2025-06-03 12:26:08,079 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 12:26:08,079 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 12:26:08,080 - INFO - Headers:
+2025-06-03 12:26:08,080 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 12:26:08,080 - INFO - Accept : application/json
+2025-06-03 12:26:08,080 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 12:26:08,080 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 12:26:08,080 - INFO - Accept-Charset : utf-8
+2025-06-03 12:26:08,080 - INFO - -- END Twilio API Request --
+2025-06-03 12:26:08,418 - INFO - Response Status Code: 201
+2025-06-03 12:26:08,418 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1134', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 06:56:08 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ375769bcc66ea9cd1db534958a1d64ea', 'Twilio-Request-Duration': '0.109', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 310f78097a148c20abaa7b74a711dbaa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'Op8x92R02ASsZR34TjMCivNzRz2OMaLtp8cF6RmvqSEzfZAGcDwkTQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 12:26:09,261 - INFO - Successfully notified Jane Smith
+2025-06-03 12:26:09,262 - INFO - Message preview: Hi Jane,
+
+This message confirms that you were selected for the HR round following your interview. Co...
+2025-06-03 12:27:12,750 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:27:12,751 - INFO - Detected change in row for Prince
+2025-06-03 12:27:12,751 - INFO - Found 1 changed rows
+2025-06-03 12:27:12,751 - INFO - Processing candidate: Prince
+2025-06-03 12:27:12,751 - INFO - Generating AI message for Prince...
+2025-06-03 12:27:13,988 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 12:27:13,988 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 12:27:13,988 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 12:27:13,989 - INFO - Headers:
+2025-06-03 12:27:13,989 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 12:27:13,989 - INFO - Accept : application/json
+2025-06-03 12:27:13,989 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 12:27:13,989 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 12:27:13,990 - INFO - Accept-Charset : utf-8
+2025-06-03 12:27:13,990 - INFO - -- END Twilio API Request --
+2025-06-03 12:27:14,319 - INFO - Response Status Code: 201
+2025-06-03 12:27:14,319 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1274', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 06:57:14 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ52c98ad1a45b52dbf2342b8c445e368d', 'Twilio-Request-Duration': '0.095', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 310f78097a148c20abaa7b74a711dbaa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'hgec5h4Rs5FlVr-DTLpVbNNTtMbhkz6OYUMsiA22ewFt3RfQwCkuLw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 12:27:15,156 - INFO - Successfully notified Prince
+2025-06-03 12:27:15,156 - INFO - Message preview: Dear Prince,
+
+This message confirms that your 1-hour panel interview has been successfully concluded...
+2025-06-03 12:28:18,591 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:29:19,061 - INFO - No changes detected in sheet
+2025-06-03 12:30:19,472 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:31:20,038 - INFO - No changes detected in sheet
+2025-06-03 12:32:20,499 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:32:20,499 - INFO - Detected change in row for Prince
+2025-06-03 12:32:20,500 - INFO - Found 1 changed rows
+2025-06-03 12:32:20,500 - INFO - Processing candidate: Prince
+2025-06-03 12:32:20,500 - INFO - Skipping Prince - same notification sent recently (cooldown: 30.0 minutes)
+2025-06-03 12:33:23,928 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:33:23,929 - INFO - Detected change in row for Prince
+2025-06-03 12:33:23,929 - INFO - Found 1 changed rows
+2025-06-03 12:33:23,929 - INFO - Processing candidate: Prince
+2025-06-03 12:33:23,930 - INFO - Generating AI message for Prince...
+2025-06-03 12:33:27,036 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 12:33:27,036 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 12:33:27,037 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 12:33:27,037 - INFO - Headers:
+2025-06-03 12:33:27,037 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 12:33:27,037 - INFO - Accept : application/json
+2025-06-03 12:33:27,037 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 12:33:27,037 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 12:33:27,037 - INFO - Accept-Charset : utf-8
+2025-06-03 12:33:27,037 - INFO - -- END Twilio API Request --
+2025-06-03 12:33:27,849 - INFO - Response Status Code: 429
+2025-06-03 12:33:27,849 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 07:03:27 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQe8b34042df7e53b59953906ebdd3af47', 'Twilio-Request-Duration': '0.060', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 45fb905d83f639530aa98885e1a3126a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'M5lLNRw9t0fgOYK__3OMhDHQNLGnUO58MOSnC6QYxPmxU3I1_J1PNQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 12:33:27,850 - ERROR - Failed to notify Prince: Failed to send message to 919263222643: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC6d83bb29cb3ffa5d5d904b4ec227ea69 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-06-03 12:36:38,397 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 12:36:38,398 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-03 12:36:38,398 - INFO - Bot will check for changes every 60 seconds
+2025-06-03 12:36:38,787 - INFO - Initialized sheet monitoring
+2025-06-03 12:37:39,208 - INFO - No changes detected in sheet
+2025-06-03 12:38:39,623 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:38:39,624 - INFO - Detected change in row for Jane Smith
+2025-06-03 12:38:39,624 - INFO - Found 1 changed rows
+2025-06-03 12:38:39,624 - INFO - Processing candidate: Jane Smith
+2025-06-03 12:38:39,624 - INFO - Generating AI message for Jane Smith...
+2025-06-03 12:38:42,611 - INFO - Sending WhatsApp message to Jane Smith (917339122643)...
+2025-06-03 12:38:42,688 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 12:38:42,688 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 12:38:42,688 - INFO - Headers:
+2025-06-03 12:38:42,688 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 12:38:42,688 - INFO - Accept : application/json
+2025-06-03 12:38:42,688 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 12:38:42,688 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 12:38:42,688 - INFO - Accept-Charset : utf-8
+2025-06-03 12:38:42,689 - INFO - -- END Twilio API Request --
+2025-06-03 12:38:43,788 - INFO - Response Status Code: 201
+2025-06-03 12:38:43,789 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1205', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 07:08:43 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQddbb512a88bcfb236c724b9e9966d0a3', 'Twilio-Request-Duration': '0.111', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 8c294c60dd2a72491038e243bb35cd76.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'NwE7YadVP-6_LmSAa_R3e8I6oStECsMm2RRnujVGMNVqwH6OiGEjzw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 12:38:44,618 - INFO - Successfully notified Jane Smith
+2025-06-03 12:38:44,619 - INFO - Message preview: Hi Jane,
+
+Following your HR round for the [Job Title] position, we're pleased to inform you that you...
+2025-06-03 12:39:48,149 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:39:48,149 - INFO - Detected change in row for Prince
+2025-06-03 12:39:48,150 - INFO - Detected change in row for Jane Smith
+2025-06-03 12:39:48,150 - INFO - Found 2 changed rows
+2025-06-03 12:39:48,150 - INFO - Processing candidate: Prince
+2025-06-03 12:39:48,151 - INFO - Generating AI message for Prince...
+2025-06-03 12:39:49,625 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 12:39:49,625 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 12:39:49,625 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 12:39:49,625 - INFO - Headers:
+2025-06-03 12:39:49,627 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 12:39:49,627 - INFO - Accept : application/json
+2025-06-03 12:39:49,627 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 12:39:49,627 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 12:39:49,627 - INFO - Accept-Charset : utf-8
+2025-06-03 12:39:49,628 - INFO - -- END Twilio API Request --
+2025-06-03 12:39:50,358 - INFO - Response Status Code: 201
+2025-06-03 12:39:50,358 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1320', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 07:09:50 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQfc3b596e99364dcb7cb460577103f475', 'Twilio-Request-Duration': '0.095', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 8c294c60dd2a72491038e243bb35cd76.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'jQ5-HnwqunZhx_vri-DbfsfEidY9kPYbbQVDantNPQaPVlFqNfuZ3A==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 12:39:51,237 - INFO - Successfully notified Prince
+2025-06-03 12:39:51,237 - INFO - Message preview: Hey Prince! 🎉🎉🎉
+
+Wow, incredible news!  I'm absolutely thrilled to hear you aced your HR round!  Tha...
+2025-06-03 12:39:54,237 - INFO - Processing candidate: Jane Smith
+2025-06-03 12:39:54,237 - INFO - Skipping Jane Smith - same notification sent recently (cooldown: 30.0 minutes)
+2025-06-03 12:40:57,658 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:41:58,283 - INFO - No changes detected in sheet
+2025-06-03 12:42:58,685 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:43:59,112 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:43:59,112 - INFO - Detected change in row for Prince
+2025-06-03 12:43:59,113 - INFO - Found 1 changed rows
+2025-06-03 12:43:59,113 - INFO - Processing candidate: Prince
+2025-06-03 12:43:59,113 - INFO - Generating AI message for Prince...
+2025-06-03 12:44:00,785 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 12:44:00,785 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 12:44:00,785 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 12:44:00,785 - INFO - Headers:
+2025-06-03 12:44:00,786 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 12:44:00,786 - INFO - Accept : application/json
+2025-06-03 12:44:00,786 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 12:44:00,786 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 12:44:00,786 - INFO - Accept-Charset : utf-8
+2025-06-03 12:44:00,787 - INFO - -- END Twilio API Request --
+2025-06-03 12:44:01,948 - INFO - Response Status Code: 201
+2025-06-03 12:44:01,948 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1282', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 07:14:01 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQb0f13590dd365c0cb5ddbaae96d11915', 'Twilio-Request-Duration': '0.122', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 dd93e58995887f8fc614ed6eba0e575e.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'mTk3hsBlIBfHqEvyynuWTD0pVXJbUUrOp9OOotc-kULq8K_vhSY_fg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 12:44:02,857 - INFO - Successfully notified Prince
+2025-06-03 12:44:02,857 - INFO - Message preview: Prince! 🎉🎉🎉 HUGE congratulations on smashing your Panel Interview!  That's absolutely fantastic news...
+2025-06-03 12:45:06,314 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 12:46:06,763 - INFO - No changes detected in sheet
+2025-06-03 12:47:07,296 - INFO - No changes detected in sheet
+2025-06-03 12:48:08,012 - INFO - No changes detected in sheet
+2025-06-03 12:49:08,613 - INFO - No changes detected in sheet
+2025-06-03 12:50:09,785 - INFO - No changes detected in sheet
+2025-06-03 12:51:10,488 - INFO - No changes detected in sheet
+2025-06-03 12:52:10,998 - INFO - No changes detected in sheet
+2025-06-03 12:52:49,717 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 12:53:11,512 - INFO - No changes detected in sheet
+2025-06-03 12:54:11,946 - INFO - No changes detected in sheet
+2025-06-03 12:55:12,599 - INFO - No changes detected in sheet
+2025-06-03 12:56:13,099 - INFO - No changes detected in sheet
+2025-06-03 12:57:14,246 - INFO - No changes detected in sheet
+2025-06-03 12:58:14,688 - INFO - No changes detected in sheet
+2025-06-03 12:59:15,246 - INFO - No changes detected in sheet
+2025-06-03 13:00:15,673 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 13:00:15,673 - INFO - Detected change in row for Prince
+2025-06-03 13:00:15,674 - INFO - Found 1 changed rows
+2025-06-03 13:00:15,674 - INFO - Processing candidate: Prince
+2025-06-03 13:00:15,675 - INFO - Hourly notification counts reset
+2025-06-03 13:00:15,675 - INFO - Generating AI message for Prince...
+2025-06-03 13:00:17,157 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 13:00:17,157 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 13:00:17,159 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 13:00:17,159 - INFO - Headers:
+2025-06-03 13:00:17,159 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 13:00:17,159 - INFO - Accept : application/json
+2025-06-03 13:00:17,160 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 13:00:17,160 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 13:00:17,160 - INFO - Accept-Charset : utf-8
+2025-06-03 13:00:17,160 - INFO - -- END Twilio API Request --
+2025-06-03 13:00:17,510 - INFO - Response Status Code: 429
+2025-06-03 13:00:17,510 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 07:30:17 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQade5fcf01133de07b54e1e46fa5556ae', 'Twilio-Request-Duration': '0.050', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e1acdf78be4f900c171f369da51345c4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'RP1iD9jT0xvI26FaOnX8OaLSxBooPmk8XkcDJLo0dCiiML5oGYjerw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 13:00:17,511 - ERROR - Failed to notify Prince: Failed to send message to 919263222643: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC6d83bb29cb3ffa5d5d904b4ec227ea69 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-06-03 13:02:42,726 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 13:02:42,726 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-03 13:02:42,726 - INFO - Bot will check for changes every 60 seconds
+2025-06-03 13:02:43,108 - INFO - Initialized sheet monitoring
+2025-06-03 13:03:22,550 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 13:03:43,523 - INFO - No changes detected in sheet
+2025-06-03 13:04:43,940 - INFO - No changes detected in sheet
+2025-06-03 13:05:44,417 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 13:05:44,417 - INFO - Detected change in row for Prince
+2025-06-03 13:05:44,418 - INFO - Found 1 changed rows
+2025-06-03 13:05:44,419 - INFO - Processing candidate: Prince
+2025-06-03 13:05:44,419 - INFO - Generating AI message for Prince...
+2025-06-03 13:05:46,222 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 13:05:46,330 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 13:05:46,330 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 13:05:46,330 - INFO - Headers:
+2025-06-03 13:05:46,331 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 13:05:46,331 - INFO - Accept : application/json
+2025-06-03 13:05:46,331 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 13:05:46,331 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 13:05:46,331 - INFO - Accept-Charset : utf-8
+2025-06-03 13:05:46,331 - INFO - -- END Twilio API Request --
+2025-06-03 13:05:47,548 - INFO - Response Status Code: 201
+2025-06-03 13:05:47,548 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1255', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 07:35:47 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ8912037d57745c34dec0ae2058d4b22c', 'Twilio-Request-Duration': '0.114', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 eeb60fee72923d35b96c344ca988f3aa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'wJvtkrZ2SbHyvNqSF6-GmkAc5zkH9p_5zRb21MH9Pz-is4d2LPwCCQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 13:05:48,495 - INFO - Successfully notified Prince
+2025-06-03 13:05:48,495 - INFO - Message preview: Hi Prince,
+
+Congratulations on reaching the Technical Round interview stage! 🎉  We were very impress...
+2025-06-03 13:06:51,914 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 13:07:52,459 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 13:07:52,460 - INFO - Detected change in row for Prince
+2025-06-03 13:07:52,460 - INFO - Found 1 changed rows
+2025-06-03 13:07:52,460 - INFO - Processing candidate: Prince
+2025-06-03 13:07:52,461 - INFO - Generating AI message for Prince...
+2025-06-03 13:07:53,735 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 13:07:53,736 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 13:07:53,736 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 13:07:53,736 - INFO - Headers:
+2025-06-03 13:07:53,736 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 13:07:53,737 - INFO - Accept : application/json
+2025-06-03 13:07:53,737 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 13:07:53,737 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 13:07:53,737 - INFO - Accept-Charset : utf-8
+2025-06-03 13:07:53,737 - INFO - -- END Twilio API Request --
+2025-06-03 13:07:54,070 - INFO - Response Status Code: 201
+2025-06-03 13:07:54,070 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1227', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 07:37:53 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQb7152ac6d3565ef6411153c9e653d899', 'Twilio-Request-Duration': '0.096', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 eeb60fee72923d35b96c344ca988f3aa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': '32GpS29tvhjfCJd5a4jSwPOyKGEZW7UwyK_w0xYsQJW8Nl0w5w9-vg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 13:07:54,869 - INFO - Successfully notified Prince
+2025-06-03 13:07:54,869 - INFO - Message preview: Hey Prince! 🎉🎉🎉
+
+Just heard the fantastic news – you absolutely smashed the Technical Round!  Huge c...
+2025-06-03 13:08:50,653 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 13:08:50,698 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 13:08:50,698 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 13:08:50,713 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-03 13:08:58,273 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 13:09:58,706 - INFO - No changes detected in sheet
+2025-06-03 13:10:39,125 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 13:10:39,140 - WARNING -  * Debugger is active!
+2025-06-03 13:10:39,145 - INFO -  * Debugger PIN: 622-030-685
+2025-06-03 13:10:39,653 - INFO - 127.0.0.1 - - [03/Jun/2025 13:10:39] "GET / HTTP/1.1" 200 -
+2025-06-03 13:10:40,003 - INFO - 127.0.0.1 - - [03/Jun/2025 13:10:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-03 13:10:59,123 - INFO - No changes detected in sheet
+2025-06-03 13:11:06,264 - INFO -  * Detected change in 'C:\\whatsapp-interview-bot\\web_dashboard.py', reloading
+2025-06-03 13:11:06,265 - INFO -  * Detected change in 'C:\\whatsapp-interview-bot\\web_dashboard.py', reloading
+2025-06-03 13:11:06,265 - INFO -  * Detected change in 'C:\\whatsapp-interview-bot\\web_dashboard.py', reloading
+2025-06-03 13:11:07,106 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-03 13:11:59,526 - INFO - No changes detected in sheet
+2025-06-03 13:12:55,786 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 13:12:55,801 - WARNING -  * Debugger is active!
+2025-06-03 13:12:55,805 - INFO -  * Debugger PIN: 622-030-685
+2025-06-03 13:12:55,909 - INFO - 127.0.0.1 - - [03/Jun/2025 13:12:55] "POST /api/send-notifications HTTP/1.1" 200 -
+2025-06-03 13:12:55,909 - INFO - 127.0.0.1 - - [03/Jun/2025 13:12:55] "POST /api/send-notifications HTTP/1.1" 200 -
+2025-06-03 13:12:55,911 - INFO - 127.0.0.1 - - [03/Jun/2025 13:12:55] "POST /api/send-notifications HTTP/1.1" 200 -
+2025-06-03 13:12:55,913 - INFO - 127.0.0.1 - - [03/Jun/2025 13:12:55] "POST /api/send-notifications HTTP/1.1" 200 -
+2025-06-03 13:12:59,911 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 13:12:59,911 - INFO - Detected change in row for Prince
+2025-06-03 13:12:59,912 - INFO - Found 1 changed rows
+2025-06-03 13:12:59,912 - INFO - Processing candidate: Prince
+2025-06-03 13:12:59,912 - INFO - Generating AI message for Prince...
+2025-06-03 13:13:01,808 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 13:13:01,808 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 13:13:01,808 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 13:13:01,809 - INFO - Headers:
+2025-06-03 13:13:01,809 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 13:13:01,809 - INFO - Accept : application/json
+2025-06-03 13:13:01,809 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 13:13:01,809 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 13:13:01,810 - INFO - Accept-Charset : utf-8
+2025-06-03 13:13:01,810 - INFO - -- END Twilio API Request --
+2025-06-03 13:13:02,368 - INFO - Response Status Code: 429
+2025-06-03 13:13:02,368 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 07:43:02 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9b8ecb9ca5a7510ac2c56e1c3adbf6f2', 'Twilio-Request-Duration': '0.052', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 f2413ce30d7e0433695f69f9e33492d4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'L6htLC3WKwZvAr4CpbIHEiaqSeocnFTt3IR9mFMN8S0T_i5hH9Z5YQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 13:13:02,370 - ERROR - Failed to notify Prince: Failed to send message to 919263222643: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC6d83bb29cb3ffa5d5d904b4ec227ea69 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-06-03 13:15:03,936 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 13:15:03,937 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-03 13:15:03,937 - INFO - Bot will check for changes every 60 seconds
+2025-06-03 13:15:04,323 - INFO - Initialized sheet monitoring
+2025-06-03 13:16:04,764 - INFO - No changes detected in sheet
+2025-06-03 13:17:05,275 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 13:17:05,275 - INFO - Detected change in row for Prince
+2025-06-03 13:17:05,276 - INFO - Found 1 changed rows
+2025-06-03 13:17:05,276 - INFO - Processing candidate: Prince
+2025-06-03 13:17:05,276 - INFO - Generating AI message for Prince...
+2025-06-03 13:17:06,946 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 13:17:07,017 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 13:17:07,017 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 13:17:07,017 - INFO - Headers:
+2025-06-03 13:17:07,018 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 13:17:07,018 - INFO - Accept : application/json
+2025-06-03 13:17:07,018 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 13:17:07,018 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 13:17:07,018 - INFO - Accept-Charset : utf-8
+2025-06-03 13:17:07,018 - INFO - -- END Twilio API Request --
+2025-06-03 13:17:07,646 - INFO - Response Status Code: 201
+2025-06-03 13:17:07,646 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1233', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 07:47:07 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ1f39146587fe6ac0b209ac95b34adfdd', 'Twilio-Request-Duration': '0.101', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 688d7c1fd7470fe709c12270e764ca02.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'D0a1GMxuHTKwRJKwHTHk8sX7biWixlq2hLbNDwpeX13HJvlNQ8HEvA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 13:17:08,585 - INFO - Successfully notified Prince
+2025-06-03 13:17:08,586 - INFO - Message preview: Hey Prince! 🎉🎉🎉
+
+Just heard the amazing news – you absolutely smashed the Technical Round!  That's f...
+2025-06-03 13:18:12,016 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 13:19:12,441 - INFO - No changes detected in sheet
+2025-06-03 13:20:12,871 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 13:20:12,873 - INFO - Detected change in row for Jane Smith
+2025-06-03 13:20:12,874 - INFO - Found 1 changed rows
+2025-06-03 13:20:12,874 - INFO - Processing candidate: Jane Smith
+2025-06-03 13:20:12,875 - INFO - Generating AI message for Jane Smith...
+2025-06-03 13:20:14,238 - INFO - Sending WhatsApp message to Jane Smith (917339122643)...
+2025-06-03 13:20:14,238 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 13:20:14,238 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 13:20:14,238 - INFO - Headers:
+2025-06-03 13:20:14,238 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 13:20:14,238 - INFO - Accept : application/json
+2025-06-03 13:20:14,240 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 13:20:14,240 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 13:20:14,240 - INFO - Accept-Charset : utf-8
+2025-06-03 13:20:14,240 - INFO - -- END Twilio API Request --
+2025-06-03 13:20:14,522 - INFO - Response Status Code: 429
+2025-06-03 13:20:14,523 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 07:50:14 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ8d4ca4d05c4ed4d16fdb14f659fb3eb4', 'Twilio-Request-Duration': '0.052', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 688d7c1fd7470fe709c12270e764ca02.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'jolkbhjVBCzX4gPmOoC7SUyjZMwYlPOBiEpmvg2yA-CccPJr42vWRQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 13:20:14,523 - ERROR - Failed to notify Jane Smith: Failed to send message to 917339122643: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC6d83bb29cb3ffa5d5d904b4ec227ea69 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-06-03 13:22:18,767 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 13:22:18,792 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 13:22:18,792 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 13:22:18,802 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-03 13:24:07,178 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 13:24:07,196 - WARNING -  * Debugger is active!
+2025-06-03 13:24:07,200 - INFO -  * Debugger PIN: 622-030-685
+2025-06-03 13:25:57,207 - INFO - 127.0.0.1 - - [03/Jun/2025 13:25:57] "GET / HTTP/1.1" 200 -
+2025-06-03 13:26:16,182 - INFO - 127.0.0.1 - - [03/Jun/2025 13:26:16] "POST /api/send-notifications HTTP/1.1" 200 -
+2025-06-03 13:57:21,979 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 13:57:21,979 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-03 13:57:21,979 - INFO - Bot will check for changes every 60 seconds
+2025-06-03 13:57:22,371 - INFO - Initialized sheet monitoring
+2025-06-03 13:58:22,828 - INFO - No changes detected in sheet
+2025-06-03 13:59:23,234 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 13:59:23,234 - INFO - Detected change in row for Jane Smith
+2025-06-03 13:59:23,234 - INFO - Found 1 changed rows
+2025-06-03 13:59:23,234 - INFO - Processing candidate: Jane Smith
+2025-06-03 13:59:23,234 - INFO - Generating AI message for Jane Smith...
+2025-06-03 13:59:26,249 - INFO - Sending WhatsApp message to Jane Smith (917339122643)...
+2025-06-03 13:59:26,327 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 13:59:26,327 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 13:59:26,327 - INFO - Headers:
+2025-06-03 13:59:26,327 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 13:59:26,327 - INFO - Accept : application/json
+2025-06-03 13:59:26,327 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 13:59:26,327 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 13:59:26,327 - INFO - Accept-Charset : utf-8
+2025-06-03 13:59:26,327 - INFO - -- END Twilio API Request --
+2025-06-03 13:59:26,908 - INFO - Response Status Code: 429
+2025-06-03 13:59:26,908 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 08:29:26 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ81b9a1f1d84ff1abcf083b8336bc6848', 'Twilio-Request-Duration': '0.058', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e1acdf78be4f900c171f369da51345c4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'Pt6aq6FAo5U46I_EmcVoGRpn9I-fJxZv31uRT8z8TPLFlDty_y1FUg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 13:59:26,908 - ERROR - Failed to notify Jane Smith: Failed to send message to 917339122643: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC6d83bb29cb3ffa5d5d904b4ec227ea69 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-06-03 14:00:30,606 - INFO - No changes detected in sheet
+2025-06-03 14:01:33,577 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 14:01:33,577 - INFO - Detected change in row for Prince
+2025-06-03 14:01:33,577 - INFO - Found 1 changed rows
+2025-06-03 14:01:33,577 - INFO - Processing candidate: Prince
+2025-06-03 14:01:33,577 - INFO - Hourly notification counts reset
+2025-06-03 14:01:33,577 - INFO - Generating AI message for Prince...
+2025-06-03 14:01:34,975 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 14:01:34,975 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 14:01:34,975 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 14:01:34,975 - INFO - Headers:
+2025-06-03 14:01:34,975 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 14:01:34,975 - INFO - Accept : application/json
+2025-06-03 14:01:34,975 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 14:01:34,975 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 14:01:34,975 - INFO - Accept-Charset : utf-8
+2025-06-03 14:01:34,975 - INFO - -- END Twilio API Request --
+2025-06-03 14:01:35,674 - INFO - Response Status Code: 429
+2025-06-03 14:01:35,674 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 08:31:35 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQb8ce8f6ea988b6fe01137862a82d8698', 'Twilio-Request-Duration': '0.036', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e1acdf78be4f900c171f369da51345c4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'J9OVzR-AESR_r_3m4Zs79uwqWdttaT9sebZz2RQ0U0-MCP3xU8FCnA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 14:01:35,674 - ERROR - Failed to notify Prince: Failed to send message to 919263222643: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC6d83bb29cb3ffa5d5d904b4ec227ea69 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-06-03 14:04:31,376 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-03 14:04:31,376 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-03 14:04:31,376 - INFO - Bot will check for changes every 60 seconds
+2025-06-03 14:04:31,862 - INFO - Initialized sheet monitoring
+2025-06-03 14:05:32,373 - INFO - No changes detected in sheet
+2025-06-03 14:06:33,150 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 14:06:33,150 - INFO - Detected change in row for Prince
+2025-06-03 14:06:33,150 - INFO - Found 1 changed rows
+2025-06-03 14:06:33,150 - INFO - Processing candidate: Prince
+2025-06-03 14:06:33,150 - INFO - Generating AI message for Prince...
+2025-06-03 14:06:36,244 - INFO - Sending WhatsApp message to Prince (919263222643)...
+2025-06-03 14:06:36,310 - INFO - -- BEGIN Twilio API Request --
+2025-06-03 14:06:36,310 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC6d83bb29cb3ffa5d5d904b4ec227ea69/Messages.json
+2025-06-03 14:06:36,310 - INFO - Headers:
+2025-06-03 14:06:36,310 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-03 14:06:36,310 - INFO - Accept : application/json
+2025-06-03 14:06:36,310 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-03 14:06:36,310 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-03 14:06:36,310 - INFO - Accept-Charset : utf-8
+2025-06-03 14:06:36,310 - INFO - -- END Twilio API Request --
+2025-06-03 14:06:37,112 - INFO - Response Status Code: 201
+2025-06-03 14:06:37,112 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1190', 'Connection': 'keep-alive', 'Date': 'Tue, 03 Jun 2025 08:36:36 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ8eb4dc1669dba5b8cd59de3acb2f780a', 'Twilio-Request-Duration': '0.110', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 7fa8400a1f843348302dcb032a91101a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'NBnm2fgPYl0wUW5pewsAiyH_15nE7kGw_A3RTSyqXpqlkJev5z5ySA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-03 14:06:38,081 - INFO - Successfully notified Prince
+2025-06-03 14:06:38,081 - INFO - Message preview: Prince! 🎉🎉🎉 HUGE congrats on smashing your HR interview with Monika Singh! That's fantastic news!  I...
+2025-06-03 14:07:41,830 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-03 14:08:42,341 - INFO - No changes detected in sheet
+2025-06-03 14:09:42,852 - INFO - No changes detected in sheet
+2025-06-03 14:10:43,296 - INFO - No changes detected in sheet
+2025-06-03 14:11:43,892 - INFO - No changes detected in sheet
+2025-06-03 14:12:44,345 - INFO - No changes detected in sheet
+2025-06-03 14:13:45,014 - INFO - No changes detected in sheet
+2025-06-03 14:14:45,651 - INFO - No changes detected in sheet
+2025-06-03 14:15:46,152 - INFO - No changes detected in sheet
+2025-06-03 14:16:46,628 - INFO - No changes detected in sheet
+2025-06-03 14:17:47,159 - INFO - No changes detected in sheet
+2025-06-03 14:18:47,657 - INFO - No changes detected in sheet
+2025-06-03 14:19:48,088 - INFO - No changes detected in sheet
+2025-06-03 14:20:48,554 - INFO - No changes detected in sheet
+2025-06-03 14:21:48,978 - INFO - No changes detected in sheet
+2025-06-03 14:22:49,515 - INFO - No changes detected in sheet
+2025-06-03 14:23:50,010 - INFO - No changes detected in sheet
+2025-06-03 14:24:50,470 - INFO - No changes detected in sheet
+2025-06-03 14:25:50,989 - INFO - No changes detected in sheet
+2025-06-03 14:26:51,478 - INFO - No changes detected in sheet
+2025-06-03 14:27:52,090 - INFO - No changes detected in sheet
+2025-06-03 14:28:52,635 - INFO - No changes detected in sheet
+2025-06-03 14:29:57,940 - INFO - No changes detected in sheet
+2025-06-03 14:30:58,414 - INFO - No changes detected in sheet
+2025-06-03 14:31:58,909 - INFO - No changes detected in sheet
+2025-06-03 14:33:09,350 - INFO - No changes detected in sheet
+2025-06-03 14:36:59,707 - INFO - No changes detected in sheet
+2025-06-03 14:38:00,181 - INFO - No changes detected in sheet
+2025-06-03 14:39:00,698 - INFO - No changes detected in sheet
+2025-06-03 14:40:01,552 - INFO - No changes detected in sheet
+2025-06-03 14:41:02,042 - INFO - No changes detected in sheet
+2025-06-03 14:42:02,510 - INFO - No changes detected in sheet
+2025-06-03 14:43:02,989 - INFO - No changes detected in sheet
+2025-06-03 14:44:03,417 - INFO - No changes detected in sheet
+2025-06-03 14:45:04,003 - INFO - No changes detected in sheet
+2025-06-03 14:46:04,442 - INFO - No changes detected in sheet
+2025-06-03 14:47:04,917 - INFO - No changes detected in sheet
+2025-06-03 14:48:05,371 - INFO - No changes detected in sheet
+2025-06-03 14:49:05,856 - INFO - No changes detected in sheet
+2025-06-03 14:50:06,575 - INFO - No changes detected in sheet
+2025-06-03 14:51:07,108 - INFO - No changes detected in sheet
+2025-06-03 14:52:07,580 - INFO - No changes detected in sheet
+2025-06-03 14:53:08,027 - INFO - No changes detected in sheet
+2025-06-03 14:54:08,543 - INFO - No changes detected in sheet
+2025-06-03 14:55:09,156 - INFO - No changes detected in sheet
+2025-06-03 14:56:09,684 - INFO - No changes detected in sheet
+2025-06-03 14:57:10,167 - INFO - No changes detected in sheet
+2025-06-03 14:58:10,653 - INFO - No changes detected in sheet
+2025-06-03 14:59:11,092 - INFO - No changes detected in sheet
+2025-06-03 15:00:33,092 - INFO - No changes detected in sheet
+2025-06-03 15:01:33,532 - INFO - No changes detected in sheet
+2025-06-03 15:02:33,996 - INFO - No changes detected in sheet
+2025-06-03 15:03:34,699 - INFO - No changes detected in sheet
+2025-06-03 15:04:35,161 - INFO - No changes detected in sheet
+2025-06-03 15:07:00,044 - INFO - No changes detected in sheet
+2025-06-03 15:08:00,496 - INFO - No changes detected in sheet
+2025-06-03 15:09:00,919 - INFO - No changes detected in sheet
+2025-06-03 15:10:01,374 - INFO - No changes detected in sheet
+2025-06-03 15:11:01,852 - INFO - No changes detected in sheet
+2025-06-03 15:12:02,915 - INFO - No changes detected in sheet
+2025-06-03 15:13:03,534 - INFO - No changes detected in sheet
+2025-06-03 15:14:04,042 - INFO - No changes detected in sheet
+2025-06-03 15:15:04,574 - INFO - No changes detected in sheet
+2025-06-03 15:16:05,027 - INFO - No changes detected in sheet
+2025-06-03 15:17:05,606 - INFO - No changes detected in sheet
+2025-06-03 15:18:06,062 - INFO - No changes detected in sheet
+2025-06-03 15:19:06,511 - INFO - No changes detected in sheet
+2025-06-03 15:20:06,962 - INFO - No changes detected in sheet
+2025-06-03 15:21:07,422 - INFO - No changes detected in sheet
+2025-06-03 15:22:08,031 - INFO - No changes detected in sheet
+2025-06-03 15:23:08,580 - INFO - No changes detected in sheet
+2025-06-03 15:24:09,060 - INFO - No changes detected in sheet
+2025-06-03 15:25:09,517 - INFO - No changes detected in sheet
+2025-06-03 15:26:10,107 - INFO - No changes detected in sheet
+2025-06-03 15:27:10,770 - INFO - No changes detected in sheet
+2025-06-03 15:28:11,243 - INFO - No changes detected in sheet
+2025-06-03 15:29:11,685 - INFO - No changes detected in sheet
+2025-06-03 15:30:12,111 - INFO - No changes detected in sheet
+2025-06-03 15:31:12,940 - INFO - No changes detected in sheet
+2025-06-03 15:32:13,581 - INFO - No changes detected in sheet
+2025-06-03 15:33:14,032 - INFO - No changes detected in sheet
+2025-06-03 15:34:14,520 - INFO - No changes detected in sheet
+2025-06-03 15:35:15,516 - INFO - No changes detected in sheet
+2025-06-03 15:36:15,972 - INFO - No changes detected in sheet
+2025-06-03 15:37:16,531 - INFO - No changes detected in sheet
+2025-06-03 15:38:16,953 - INFO - No changes detected in sheet
+2025-06-03 15:39:17,460 - INFO - No changes detected in sheet
+2025-06-03 15:40:48,139 - INFO - No changes detected in sheet
+2025-06-03 15:41:48,573 - INFO - No changes detected in sheet
+2025-06-03 15:42:49,132 - INFO - No changes detected in sheet
+2025-06-03 15:43:49,569 - INFO - No changes detected in sheet
+2025-06-03 15:44:50,017 - INFO - No changes detected in sheet
+2025-06-03 15:45:50,428 - INFO - No changes detected in sheet
+2025-06-03 15:46:50,863 - INFO - No changes detected in sheet
+2025-06-03 15:47:51,453 - INFO - No changes detected in sheet
+2025-06-03 15:48:51,909 - INFO - No changes detected in sheet
+2025-06-03 15:49:52,333 - INFO - No changes detected in sheet
+2025-06-03 15:50:52,766 - INFO - No changes detected in sheet
+2025-06-03 15:51:53,211 - INFO - No changes detected in sheet
+2025-06-03 15:52:53,836 - INFO - No changes detected in sheet
+2025-06-03 15:54:24,411 - INFO - No changes detected in sheet
+2025-06-03 15:55:25,393 - INFO - No changes detected in sheet
+2025-06-03 15:56:26,279 - INFO - No changes detected in sheet
+2025-06-03 15:57:48,072 - INFO - No changes detected in sheet
+2025-06-03 15:58:48,786 - INFO - No changes detected in sheet
+2025-06-03 15:59:49,262 - INFO - No changes detected in sheet
+2025-06-03 16:00:49,729 - INFO - No changes detected in sheet
+2025-06-03 16:01:50,152 - INFO - No changes detected in sheet
+2025-06-03 16:02:50,580 - INFO - No changes detected in sheet
+2025-06-03 16:03:51,378 - INFO - No changes detected in sheet
+2025-06-03 16:04:51,860 - INFO - No changes detected in sheet
+2025-06-03 16:05:52,304 - INFO - No changes detected in sheet
+2025-06-03 16:06:52,758 - INFO - No changes detected in sheet
+2025-06-03 16:07:53,212 - INFO - No changes detected in sheet
+2025-06-03 16:10:18,280 - INFO - No changes detected in sheet
+2025-06-03 16:11:18,773 - INFO - No changes detected in sheet
+2025-06-03 16:12:19,429 - INFO - No changes detected in sheet
+2025-06-03 16:13:19,879 - INFO - No changes detected in sheet
+2025-06-03 16:14:50,368 - INFO - No changes detected in sheet
+2025-06-03 16:15:51,030 - INFO - No changes detected in sheet
+2025-06-03 16:16:51,474 - INFO - No changes detected in sheet
+2025-06-03 16:17:51,963 - INFO - No changes detected in sheet
+2025-06-03 16:18:52,459 - INFO - No changes detected in sheet
+2025-06-03 16:19:52,897 - INFO - No changes detected in sheet
+2025-06-03 16:20:53,498 - INFO - No changes detected in sheet
+2025-06-03 16:21:53,947 - INFO - No changes detected in sheet
+2025-06-03 16:22:54,452 - INFO - No changes detected in sheet
+2025-06-03 16:23:54,909 - INFO - No changes detected in sheet
+2025-06-03 16:24:55,437 - INFO - No changes detected in sheet
+2025-06-03 16:25:56,030 - INFO - No changes detected in sheet
+2025-06-03 16:26:56,484 - INFO - No changes detected in sheet
+2025-06-03 16:27:56,937 - INFO - No changes detected in sheet
+2025-06-03 16:28:57,395 - INFO - No changes detected in sheet
+2025-06-03 16:29:57,880 - INFO - No changes detected in sheet
+2025-06-03 16:30:58,500 - INFO - No changes detected in sheet

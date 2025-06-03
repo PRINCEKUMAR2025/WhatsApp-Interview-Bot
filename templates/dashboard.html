@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interview Bot Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .stats { display: flex; gap: 20px; margin-bottom: 30px; }
+        .stat-card { background: #f0f0f0; padding: 20px; border-radius: 8px; text-align: center; }
+        .candidates-table { width: 100%; border-collapse: collapse; }
+        .candidates-table th, .candidates-table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        .candidates-table th { background-color: #f2f2f2; }
+        .btn { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+        .btn:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Interview Notification Bot Dashboard</h1>
+    
+    <div class="stats">
+        <div class="stat-card">
+            <h3>{{ stats.total }}</h3>
+            <p>Total Candidates</p>
+        </div>
+        <div class="stat-card">
+            <h3>{{ stats.scheduled }}</h3>
+            <p>Scheduled</p>
+        </div>
+        <div class="stat-card">
+            <h3>{{ stats.cleared }}</h3>
+            <p>Cleared</p>
+        </div>
+        <div class="stat-card">
+            <h3>{{ stats.rejected }}</h3>
+            <p>Rejected</p>
+        </div>
+    </div>
+    
+    <button class="btn" onclick="sendNotifications()">Send Pending Notifications</button>
+    
+    <h2>Candidates</h2>
+    <table class="candidates-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Current Round</th>
+                <th>Status</th>
+                <th>Interview Date</th>
+                <th>Notification Sent</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for candidate in candidates %}
+            <tr>
+                <td>{{ candidate.Candidate_ID }}</td>
+                <td>{{ candidate.Name }}</td>
+                <td>{{ candidate.Phone }}</td>
+                <td>{{ candidate.Current_Round }}</td>
+                <td>{{ candidate.Status }}</td>
+                <td>{{ candidate.Interview_Date }}</td>
+                <td>{{ candidate.Notification_Sent }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    <script>
+        function sendNotifications() {
+            fetch('/api/send-notifications', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    alert(data.message);
+                    if (data.success) location.reload();
+                });
+        }
+    </script>
+</body>
+</html>

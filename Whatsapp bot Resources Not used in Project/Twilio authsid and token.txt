@@ -1,0 +1,2 @@
+  public static final String ACCOUNT_SID = "AC6d83bb29cb3ffa5d5d904b4ec227ea69";
+  public static final String AUTH_TOKEN = "417d0649d013d5b0466af7db884fd207";
