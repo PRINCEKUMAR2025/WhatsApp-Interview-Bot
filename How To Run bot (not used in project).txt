@@ -1,0 +1,3 @@
+venv\Scripts\activate       -> Run project in Virtual Env
+
+python run_bot.py --mode continuous                -> start bot in continous mode

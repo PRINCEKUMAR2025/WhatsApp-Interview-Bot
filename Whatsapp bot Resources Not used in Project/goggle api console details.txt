@@ -1,0 +1,13 @@
+Create service account
+Service account name
+Whatsapp bot
+Display name for this service account
+Service account ID 
+whatsapp-bot
+Email address: whatsapp-bot@whatsapp-bot-461719.iam.gserviceaccount.com 
+Service account description
+Describe what this service account will do
+2
+Permissions (optional)
+3
+Principals with access (optional)

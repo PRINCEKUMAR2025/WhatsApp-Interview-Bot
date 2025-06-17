@@ -1,0 +1,9 @@
+# Terminal 1: Start your webhook server
+python webhook_handler.py
+
+# Terminal 2: Expose your local server
+ngrok http 5000
+
+
+Update webhook url value in Twilio webhooks as https://yourngroklink/webhook   ex -https://ac62-2401-4900-883b-8db9-245b-4878-88ad-7fb9.ngrok-free.app/webhook
+Update Status callback URl in Twilio as https://yourngroklink/status   ex - https://ac62-2401-4900-883b-8db9-245b-4878-88ad-7fb9.ngrok-free.app/status
