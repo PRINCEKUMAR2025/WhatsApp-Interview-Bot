@@ -61,3 +61,58 @@ class SheetsHandler:
                 self.worksheet.update_cell(cell.row, 16, 'Yes')
         except Exception as e:
             print(f"Error updating notification status: {e}")
+
+    def update_candidate_data(self, phone_number, updates):
+        """Enhanced update method with better error handling"""
+        try:
+            df = self.get_all_data()
+            if df is None:
+                print("Could not fetch sheet data")
+                return False
+
+            # Find the candidate row with flexible phone matching
+            phone_matches = None
+            search_patterns = [
+                phone_number,
+                phone_number.replace('+', ''),
+                phone_number.replace('+91', ''),
+                phone_number.replace('+1', ''),
+                phone_number[-10:] if len(phone_number) >= 10 else phone_number
+            ]
+        
+            for pattern in search_patterns:
+                matches = df[df['Candidate_Phone'].astype(str).str.contains(pattern, na=False, regex=False)]
+                if not matches.empty:
+                    phone_matches = matches
+                    break
+        
+            if phone_matches is None or phone_matches.empty:
+                print(f"No candidate found with phone: {phone_number}")
+                return False
+
+            row_index = phone_matches.index[0]
+        
+            # Update the worksheet
+            worksheet = self.client.open_by_key(self.sheet_id).sheet1
+        
+            for column, value in updates.items():
+                if column in df.columns:
+                    col_index = df.columns.get_loc(column) + 1  # +1 for 1-based indexing
+                    cell_row = row_index + 2  # +2 for header and 0-based index
+                    worksheet.update_cell(cell_row, col_index, value)
+                    print(f"Updated {column} to {value} at row {cell_row}, col {col_index}")
+        
+            return True
+
+        except Exception as e:
+            print(f"Error updating candidate data: {e}")
+            return False
+
+    def log_conversation(self, phone_number, message, response):
+        """Log conversations for audit trail"""
+        try:
+            # You can implement conversation logging here
+            timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            print(f"[{timestamp}] {phone_number}: {message} -> {response[:50]}...")
+        except Exception as e:
+            print(f"Error logging conversation: {e}")

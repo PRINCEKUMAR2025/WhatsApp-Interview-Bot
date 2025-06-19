@@ -5,185 +5,159 @@ from datetime import datetime
 
 load_dotenv()
 
-class MessageGenerator:
+class TemplateMessageGenerator:
     def __init__(self):
+        # Initialize Gemini for webhook responses (keep existing functionality)
         genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
         self.model = genai.GenerativeModel('gemini-1.5-flash')
+        
+        # Template SIDs - Update these after WhatsApp approval
+        self.templates = {
+            'scheduled': 'HX96b3883278a0d57d68e5b55b7a034164',
+            'reschedule': 'HXebb5a65730b86f83721812509fd5623d', 
+            'confirmed': 'HXe7a33ede591a314f3662e3225978e3f7',
+            'dropped': 'HXa68767df5df37091e5ad1bfc0389cc45',
+            'not responding': 'HXf849e9b1349a64106572a0b33866d2d3'
+        }
 
     def generate_interview_message(self, candidate_data):
+        """Generate template data for WhatsApp templates"""
         name = candidate_data.get('Candidate_Name', 'Candidate')
         company = candidate_data.get('Company_Name', '')
         role = candidate_data.get('Applied_Role', '')
         current_round = candidate_data.get('Current_Round', '')
-        status = candidate_data.get('Interview_Status', '')
+        status = candidate_data.get('Interview_Status', '').lower()
         interview_date = candidate_data.get('Interview_Date', '')
         start_time = candidate_data.get('Start_Time', '')
         end_time = candidate_data.get('End_Time', '')
-        jd_link = candidate_data.get('JD_Link', '')
-        resources = candidate_data.get('Resources_To_Prepare', '')
         comments = candidate_data.get('Additional_Comments', '')
         outcome = candidate_data.get('Interview_Outcome', '')
+        resources = candidate_data.get('Resources_To_Prepare', '')
+        jd_link = candidate_data.get('JD_Link', '')
 
-        # Create base message with date/time if available
-        base_info = self._create_datetime_header(interview_date, start_time, end_time)
+        # Return template data based on status
+        if status in ['scheduled', 'reschedule']:
+            return {
+                'use_template': True,
+                'template_sid': self.templates.get('reschedule' if status == 'reschedule' else 'scheduled'),
+                'variables': {
+                    '1': name,
+                    '2': current_round,
+                    '3': company,
+                    '4': interview_date or 'TBD',
+                    '5': start_time or 'TBD',
+                    '6': end_time or 'TBD',
+                    '7': role,
+                    '8': comments or 'Good luck with your interview!'
+                }
+            }
         
-        if status.lower() == 'reschedule':
-            prompt = f"""
-            Create a WhatsApp message for {name} about rescheduling their {current_round} at {company}.
-            
-            CRITICAL REQUIREMENT: You MUST include the following date and time information at the beginning of the message:
-            {base_info}
-            
-            Additional details to include:
-            - Role: {role}
-            - JD Link: {jd_link if jd_link else 'Will be shared separately'}
-            - Resources: {resources if resources else 'Will be provided'}
-            - Additional Comments: {comments}
-
-            Format: Start with the date/time, then explain the rescheduling in a polite and clear tone.
-            """
-
-        elif status.lower() == 'not responding':
-            prompt = f"""
-            Create a WhatsApp message to update {name} about their interview status at {company}.
-            
-            {base_info}
-            
-            Details to include:
-            - Company: {company}
-            - Role: {role}
-            - Round: {current_round}
-            - Outcome: {outcome}
-            - Feedback: {comments}
-
-            Mention that the recruiter is not responding and we are following up. Use a professional yet empathetic tone.
-            """
-            
-        elif status.lower() == 'confirmed':
-            prompt = f"""
-            Create a congratulatory WhatsApp message for {name} who cleared the {current_round} at {company}.
-            
-            MANDATORY: Start the message with this exact date/time information:
-            {base_info}
-            
-            Then include:
-            - Role: {role}
-            - Outcome: {outcome}
-            - Feedback: {comments}
-
-            Use a warm, celebratory, and professional tone. Make the date and time prominent.
-            """
-            
-        elif status.lower() == 'dropped':
-            prompt = f"""
-            Create a respectful WhatsApp message to inform {name} about their interview result at {company}.
-            
-            {base_info}
-            
-            Include these details sensitively:
-            - Role: {role}
-            - Round: {current_round}
-            - Outcome: {outcome}
-            - Feedback: {comments}
-
-            Use a respectful, empathetic, and professional tone. Keep it concise but supportive.
-            """
-            
+        elif status == 'confirmed':
+            return {
+                'use_template': True,
+                'template_sid': self.templates.get('confirmed'),
+                'variables': {
+                    '1': name,
+                    '2': current_round,
+                    '3': company,
+                    '4': interview_date or 'Recently',
+                    '5': start_time or '',
+                    '6': role,
+                    '7': outcome or 'Cleared',
+                    '8': comments or 'Congratulations on your success!'
+                }
+            }
+        
+        elif status == 'dropped':
+            return {
+                'use_template': True,
+                'template_sid': self.templates.get('dropped'),
+                'variables': {
+                    '1': name,
+                    '2': current_round,
+                    '3': company,
+                    '4': role,
+                    '5': outcome or 'Not selected',
+                    '6': comments or 'Thank you for your time and interest.'
+                }
+            }
+        
+        elif status == 'not responding':
+            return {
+                'use_template': True,
+                'template_sid': self.templates.get('not responding'),
+                'variables': {
+                    '1': name,
+                    '2': current_round,
+                    '3': company,
+                    '4': role,
+                    '5': interview_date or 'Recently',
+                    '6': 'Following up with recruiter',
+                    '7': comments or 'We are actively following up on your behalf.'
+                }
+            }
+        
         else:
-            prompt = f"""
-            Create a WhatsApp message to update {name} about their interview process at {company}.
-            
-            {base_info}
-            
-            Details to include:
-            - Role: {role}
-            - Interview Round: {current_round}
-            - Current Status: {status}
-            - Outcome: {outcome}
-            - Comments/Feedback: {comments}
+            # Fallback to scheduled template
+            return {
+                'use_template': True,
+                'template_sid': self.templates.get('scheduled'),
+                'variables': {
+                    '1': name,
+                    '2': current_round or 'interview',
+                    '3': company,
+                    '4': interview_date or 'TBD',
+                    '5': start_time or 'TBD',
+                    '6': end_time or 'TBD',
+                    '7': role,
+                    '8': comments or 'We will update you soon.'
+                }
+            }
 
-            Ensure the message is polite, clear, and informative with a professional tone.
-            """
-
+    # Keep existing Gemini functionality for webhook responses
+    def generate_webhook_response(self, candidate_data):
+        """Generate AI response for webhook (keep existing functionality)"""
+        prompt = f"""
+        Create a comprehensive WhatsApp message for a candidate who messaged "hi".
+        
+        Candidate Details:
+        - Name: {candidate_data.get('Candidate_Name', 'N/A')}
+        - Company: {candidate_data.get('Company_Name', 'N/A')}
+        - Role: {candidate_data.get('Applied_Role', 'N/A')}
+        - Status: {candidate_data.get('Interview_Status', 'N/A')}
+        - Interview Date: {candidate_data.get('Interview_Date', 'N/A')}
+        - Time: {candidate_data.get('Start_Time', 'N/A')} to {candidate_data.get('End_Time', 'N/A')}
+        - Outcome: {candidate_data.get('Interview_Outcome', 'N/A')}
+        - Comments: {candidate_data.get('Additional_Comments', 'N/A')}
+        
+        Create a warm, professional message with all details clearly formatted with emojis.
+        """
+        
         try:
             response = self.model.generate_content(prompt)
-            generated_message = response.text.strip()
-            
-            # Validate and enhance the message if needed
-            validated_message = self._validate_and_enhance_message(
-                generated_message, candidate_data
-            )
-            
-            return validated_message
-            
+            return response.text.strip()
         except Exception as e:
-            return self._get_fallback_message(candidate_data)
+            return self._create_fallback_response(candidate_data)
 
-    def _create_datetime_header(self, interview_date, start_time, end_time):
-        """Create a formatted date/time header for messages"""
-        if not interview_date and not start_time:
-            return "Interview details:"
-            
-        header_parts = []
+    def _create_fallback_response(self, candidate_data):
+        """Fallback response for webhook"""
+        name = candidate_data.get('Candidate_Name', 'there')
+        message = f"Hi {name}! 👋\n\n"
+        message += f"🏢 Company: {candidate_data.get('Company_Name', 'N/A')}\n"
+        message += f"💼 Role: {candidate_data.get('Applied_Role', 'N/A')}\n"
+        message += f"📋 Status: {candidate_data.get('Interview_Status', 'N/A')}\n"
         
-        if interview_date:
-            header_parts.append(f"📅 Date: {interview_date}")
-            
-        if start_time:
-            if end_time:
-                header_parts.append(f"⏰ Time: {start_time} to {end_time}")
-            else:
-                header_parts.append(f"⏰ Time: {start_time}")
-                
-        if header_parts:
-            return "\n".join(header_parts) + "\n"
-        else:
-            return ""
-
-    def _validate_and_enhance_message(self, message, candidate_data):
-        """Validate that the message contains date/time and enhance if missing"""
-        interview_date = candidate_data.get('Interview_Date', '')
-        start_time = candidate_data.get('Start_Time', '')
-        end_time = candidate_data.get('End_Time', '')
+        if candidate_data.get('Interview_Date'):
+            message += f"📅 Date: {candidate_data.get('Interview_Date')}\n"
         
-        # Check if date/time information is missing from the generated message
-        missing_info = []
+        if candidate_data.get('Start_Time'):
+            message += f"⏰ Time: {candidate_data.get('Start_Time')}"
+            if candidate_data.get('End_Time'):
+                message += f" to {candidate_data.get('End_Time')}"
+            message += "\n"
         
-        if interview_date and interview_date not in message:
-            missing_info.append(f"📅 Date: {interview_date}")
-            
-        if start_time and start_time not in message:
-            if end_time:
-                missing_info.append(f"⏰ Time: {start_time} to {end_time}")
-            else:
-                missing_info.append(f"⏰ Time: {start_time}")
-        
-        # If critical info is missing, prepend it to the message
-        if missing_info:
-            enhanced_header = "\n".join(missing_info) + "\n\n"
-            return enhanced_header + message
-            
+        message += "\nFeel free to ask if you need any clarification! 😊"
         return message
 
-    def _get_fallback_message(self, candidate_data):
-        """Enhanced fallback messages with date/time"""
-        name = candidate_data.get('Candidate_Name', 'Candidate')
-        status = candidate_data.get('Interview_Status', 'update')
-        round_type = candidate_data.get('Current_Round', 'interview')
-        interview_date = candidate_data.get('Interview_Date', '')
-        start_time = candidate_data.get('Start_Time', '')
-        end_time = candidate_data.get('End_Time', '')
-        
-        # Create date/time header for fallback
-        datetime_info = self._create_datetime_header(interview_date, start_time, end_time)
-        
-        fallback_messages = {
-            'scheduled': f"Hi {name}!\n\n{datetime_info}Your {round_type} interview has been scheduled. Please check your email for details. Best of luck!",
-            'confirmed': f"Congratulations {name}!\n\n{datetime_info}You've successfully cleared the {round_type}. We'll update you about next steps soon.",
-            'dropped': f"Hi {name},\n\n{datetime_info}Thank you for your time with the {round_type}. We'll keep your profile for future opportunities.",
-            'reschedule': f"Hi {name},\n\n{datetime_info}Your {round_type} interview has been rescheduled. Please check the new timing above."
-        }
-        
-        default_message = f"Hi {name},\n\n{datetime_info}There's an update regarding your {round_type}. Please check your email for details."
-        
-        return fallback_messages.get(status.lower(), default_message)
+# Keep backward compatibility
+MessageGenerator = TemplateMessageGenerator

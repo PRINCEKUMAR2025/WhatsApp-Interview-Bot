@@ -4212,3 +4212,1354 @@ twilio.base.exceptions.TwilioRestException:
 2025-06-17 17:13:25,622 - INFO - Response Status Code: 201
 2025-06-17 17:13:25,622 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1258', 'Connection': 'keep-alive', 'Date': 'Tue, 17 Jun 2025 11:43:25 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ6d63d07854f68c93fc8bbe2f02b4f2e9', 'Twilio-Request-Duration': '0.129', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 6c0225aca5d388c36fdeefd93f6b49aa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-C2', 'X-Amz-Cf-Id': 'j3mQgQUqnAZvu-DQIfmxynPS9kXzxc6Fe6_iiV8ORbU7DrV3md-cNQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
 2025-06-17 17:13:26,477 - INFO - Notification sent to Prince (919263222643)
+2025-06-17 23:15:44,971 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-17 23:15:44,971 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-17 23:15:44,971 - INFO - Bot will check for changes every 60 seconds
+2025-06-17 23:15:45,393 - INFO - Initialized sheet monitoring
+2025-06-17 23:16:45,819 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-17 23:16:45,819 - INFO - Detected change in row for 
+2025-06-17 23:16:45,819 - INFO - Detected change in row for 
+2025-06-17 23:16:45,819 - INFO - Detected change in row for 
+2025-06-17 23:16:45,819 - INFO - Detected change in row for 
+2025-06-17 23:16:45,819 - INFO - Detected change in row for 
+2025-06-17 23:16:45,819 - INFO - Detected change in row for 
+2025-06-17 23:16:45,819 - INFO - Detected change in row for 
+2025-06-17 23:16:45,819 - INFO - Detected change in row for Ankur
+2025-06-17 23:16:45,819 - INFO - Found 8 changed rows
+2025-06-17 23:16:49,011 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:16:55,899 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:17:00,483 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:17:04,835 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:17:09,921 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:17:15,545 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:17:21,380 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:17:26,732 - INFO - -- BEGIN Twilio API Request --
+2025-06-17 23:17:26,732 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-17 23:17:26,732 - INFO - Headers:
+2025-06-17 23:17:26,732 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-17 23:17:26,732 - INFO - Accept : application/json
+2025-06-17 23:17:26,732 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-17 23:17:26,732 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-17 23:17:26,733 - INFO - Accept-Charset : utf-8
+2025-06-17 23:17:26,733 - INFO - -- END Twilio API Request --
+2025-06-17 23:17:27,587 - INFO - Response Status Code: 201
+2025-06-17 23:17:27,587 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1995', 'Connection': 'keep-alive', 'Date': 'Tue, 17 Jun 2025 17:47:27 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ7996de65c1031775e9dcef8a6d4b43a1', 'Twilio-Request-Duration': '0.113', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 3d029316ef030de84eb214747e947124.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-C2', 'X-Amz-Cf-Id': 'Wahq1gUNYIb0SjyGx8udhRERDamytXP3ACBouLkMwEf0UVyAzVsq9g==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-17 23:17:28,283 - INFO - Notification sent to Ankur (918310604620)
+2025-06-17 23:19:01,616 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-17 23:19:01,616 - INFO - Detected change in row for 
+2025-06-17 23:19:01,616 - INFO - Detected change in row for 
+2025-06-17 23:19:01,616 - INFO - Detected change in row for 
+2025-06-17 23:19:01,616 - INFO - Detected change in row for 
+2025-06-17 23:19:01,616 - INFO - Detected change in row for 
+2025-06-17 23:19:01,616 - INFO - Detected change in row for Ankur
+2025-06-17 23:19:01,616 - INFO - Found 6 changed rows
+2025-06-17 23:19:05,453 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:19:09,904 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:19:14,123 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:19:18,904 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:19:23,404 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:19:27,676 - INFO - -- BEGIN Twilio API Request --
+2025-06-17 23:19:27,676 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-17 23:19:27,676 - INFO - Headers:
+2025-06-17 23:19:27,676 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-17 23:19:27,676 - INFO - Accept : application/json
+2025-06-17 23:19:27,676 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-17 23:19:27,676 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-17 23:19:27,676 - INFO - Accept-Charset : utf-8
+2025-06-17 23:19:27,676 - INFO - -- END Twilio API Request --
+2025-06-17 23:19:28,472 - INFO - Response Status Code: 201
+2025-06-17 23:19:28,472 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1201', 'Connection': 'keep-alive', 'Date': 'Tue, 17 Jun 2025 17:49:28 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa3302610a03af5f08a84ac68d9ee9c23', 'Twilio-Request-Duration': '0.097', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 3d029316ef030de84eb214747e947124.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-C2', 'X-Amz-Cf-Id': 'vsDf1Td6VKBqGMpjeyg2l_Fc0azbs4eL3tFb8pyYhYxvhz4cxsp7gw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-17 23:19:29,160 - INFO - Notification sent to Ankur (918310604620)
+2025-06-17 23:20:05,679 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-17 23:20:05,757 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-17 23:20:05,757 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 23:20:05,773 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-17 23:20:08,788 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-17 23:20:08,803 - WARNING -  * Debugger is active!
+2025-06-17 23:20:08,803 - INFO -  * Debugger PIN: 126-957-674
+2025-06-17 23:21:02,736 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-17 23:21:02,736 - INFO - Detected change in row for 
+2025-06-17 23:21:02,736 - INFO - Detected change in row for 
+2025-06-17 23:21:02,736 - INFO - Detected change in row for 
+2025-06-17 23:21:02,736 - INFO - Detected change in row for 
+2025-06-17 23:21:02,736 - INFO - Detected change in row for 
+2025-06-17 23:21:02,736 - INFO - Detected change in row for 
+2025-06-17 23:21:02,736 - INFO - Detected change in row for 
+2025-06-17 23:21:02,736 - INFO - Found 7 changed rows
+2025-06-17 23:21:04,721 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:21:11,186 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:21:15,661 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:21:20,264 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:21:24,820 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:21:29,778 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:21:34,506 - ERROR - Failed to notify : Invalid phone number format
+2025-06-17 23:23:07,880 - INFO - No changes detected in sheet
+2025-06-17 23:24:38,233 - INFO - No changes detected in sheet
+2025-06-17 23:26:08,792 - INFO - No changes detected in sheet
+2025-06-17 23:27:39,143 - INFO - No changes detected in sheet
+2025-06-17 23:29:09,495 - INFO - No changes detected in sheet
+2025-06-17 23:30:39,844 - INFO - No changes detected in sheet
+2025-06-17 23:32:10,371 - INFO - No changes detected in sheet
+2025-06-17 23:33:40,736 - INFO - No changes detected in sheet
+2025-06-17 23:35:11,093 - INFO - No changes detected in sheet
+2025-06-17 23:36:41,421 - INFO - No changes detected in sheet
+2025-06-17 23:38:11,913 - INFO - No changes detected in sheet
+2025-06-17 23:39:42,271 - INFO - No changes detected in sheet
+2025-06-17 23:40:27,773 - INFO - 127.0.0.1 - - [17/Jun/2025 23:40:27] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-17 23:41:12,629 - INFO - No changes detected in sheet
+2025-06-17 23:41:39,621 - INFO - 127.0.0.1 - - [17/Jun/2025 23:41:39] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-17 23:42:43,006 - INFO - No changes detected in sheet
+2025-06-17 23:43:29,312 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-17 23:43:29,344 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-17 23:43:29,344 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 23:43:29,344 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-17 23:43:32,134 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-17 23:43:32,149 - WARNING -  * Debugger is active!
+2025-06-17 23:43:32,149 - INFO -  * Debugger PIN: 126-957-674
+2025-06-17 23:44:13,384 - INFO - No changes detected in sheet
+2025-06-17 23:44:29,709 - INFO - 127.0.0.1 - - [17/Jun/2025 23:44:29] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-17 23:44:37,424 - INFO - 127.0.0.1 - - [17/Jun/2025 23:44:37] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-17 23:44:56,232 - INFO -  * Detected change in 'C:\\whatsapp-interview-bot\\webhook_handler.py', reloading
+2025-06-17 23:44:56,723 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-17 23:45:01,129 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-17 23:45:01,145 - WARNING -  * Debugger is active!
+2025-06-17 23:45:01,161 - INFO -  * Debugger PIN: 126-957-674
+2025-06-17 23:45:31,214 - INFO -  * Detected change in 'C:\\whatsapp-interview-bot\\webhook_handler.py', reloading
+2025-06-17 23:45:31,214 - INFO -  * Detected change in 'C:\\whatsapp-interview-bot\\webhook_handler.py', reloading
+2025-06-17 23:45:32,324 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-17 23:45:35,259 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-17 23:45:35,271 - WARNING -  * Debugger is active!
+2025-06-17 23:45:35,271 - INFO -  * Debugger PIN: 126-957-674
+2025-06-17 23:45:43,700 - INFO - No changes detected in sheet
+2025-06-17 23:45:46,185 - INFO - 127.0.0.1 - - [17/Jun/2025 23:45:46] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-17 23:45:57,034 - INFO -  * Detected change in 'C:\\whatsapp-interview-bot\\webhook_handler.py', reloading
+2025-06-17 23:45:57,034 - INFO -  * Detected change in 'C:\\whatsapp-interview-bot\\webhook_handler.py', reloading
+2025-06-17 23:45:57,894 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-18 01:09:10,820 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-18 01:09:10,820 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-18 01:09:10,820 - INFO - Bot will check for changes every 60 seconds
+2025-06-18 01:09:11,148 - INFO - Initialized sheet monitoring
+2025-06-18 01:10:11,529 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-18 01:10:11,529 - INFO - Detected change in row for 
+2025-06-18 01:10:11,529 - INFO - Detected change in row for 
+2025-06-18 01:10:11,529 - INFO - Detected change in row for 
+2025-06-18 01:10:11,529 - INFO - Detected change in row for 
+2025-06-18 01:10:11,529 - INFO - Detected change in row for 
+2025-06-18 01:10:11,529 - INFO - Detected change in row for 
+2025-06-18 01:10:11,529 - INFO - Detected change in row for 
+2025-06-18 01:10:11,529 - INFO - Detected change in row for Ankur
+2025-06-18 01:10:11,529 - INFO - Found 8 changed rows
+2025-06-18 01:10:11,529 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 01:10:14,537 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 01:10:17,538 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 01:10:20,538 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 01:10:23,539 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 01:10:26,540 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 01:10:29,541 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 01:10:32,625 - INFO - -- BEGIN Twilio API Request --
+2025-06-18 01:10:32,625 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-18 01:10:32,625 - INFO - Headers:
+2025-06-18 01:10:32,625 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-18 01:10:32,625 - INFO - Accept : application/json
+2025-06-18 01:10:32,625 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-18 01:10:32,625 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-18 01:10:32,625 - INFO - Accept-Charset : utf-8
+2025-06-18 01:10:32,625 - INFO - -- END Twilio API Request --
+2025-06-18 01:10:33,547 - INFO - Response Status Code: 401
+2025-06-18 01:10:33,547 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Date': 'Tue, 17 Jun 2025 19:40:33 GMT', 'X-Twilio-Error-Code': '20003', 'Twilio-Request-Id': 'RQc9ac93bf64a98a1a8fb90728a6871dbc', 'Twilio-Request-Duration': '0.016', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'WWW-Authenticate': 'Basic realm="Twilio API"', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 87fbff86abcb4b53a1ff888ae9ab9446.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-C2', 'X-Amz-Cf-Id': '7liAJChRqAuAuoGFkRkW_FPl83vfVV8IeM9z3ftxnADRn23kZRvXtA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-18 01:10:33,547 - INFO - -- BEGIN Twilio API Request --
+2025-06-18 01:10:33,547 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-18 01:10:33,547 - INFO - Headers:
+2025-06-18 01:10:33,547 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-18 01:10:33,547 - INFO - Accept : application/json
+2025-06-18 01:10:33,547 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-18 01:10:33,547 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-18 01:10:33,547 - INFO - Accept-Charset : utf-8
+2025-06-18 01:10:33,547 - INFO - -- END Twilio API Request --
+2025-06-18 01:10:34,234 - INFO - Response Status Code: 401
+2025-06-18 01:10:34,234 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Date': 'Tue, 17 Jun 2025 19:40:34 GMT', 'X-Twilio-Error-Code': '20003', 'Twilio-Request-Id': 'RQ78e785aa9a560566ae1164b8c9083e79', 'Twilio-Request-Duration': '0.018', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'WWW-Authenticate': 'Basic realm="Twilio API"', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 87fbff86abcb4b53a1ff888ae9ab9446.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-C2', 'X-Amz-Cf-Id': 'pxwaTn4F-oRFwzYRfh1PGYt0eACfviouYvavoedSzTh7dZp4kAuAuw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-18 01:10:34,234 - ERROR - Failed to notify Ankur: Failed to send regular message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Authenticate[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20003[0m
+
+
+2025-06-18 01:11:37,598 - INFO - No changes detected in sheet
+2025-06-18 01:12:37,978 - INFO - No changes detected in sheet
+2025-06-18 01:13:38,357 - INFO - No changes detected in sheet
+2025-06-18 01:14:38,955 - INFO - No changes detected in sheet
+2025-06-18 01:15:39,306 - INFO - No changes detected in sheet
+2025-06-18 01:16:39,769 - INFO - No changes detected in sheet
+2025-06-18 01:17:40,154 - INFO - No changes detected in sheet
+2025-06-18 01:18:40,532 - INFO - No changes detected in sheet
+2025-06-18 01:19:40,930 - INFO - No changes detected in sheet
+2025-06-18 01:20:41,317 - INFO - No changes detected in sheet
+2025-06-18 01:21:41,833 - INFO - No changes detected in sheet
+2025-06-18 01:22:42,214 - INFO - No changes detected in sheet
+2025-06-18 01:23:42,668 - INFO - No changes detected in sheet
+2025-06-18 01:24:43,054 - INFO - No changes detected in sheet
+2025-06-18 01:25:43,434 - INFO - No changes detected in sheet
+2025-06-18 01:26:43,933 - INFO - No changes detected in sheet
+2025-06-18 01:27:44,295 - INFO - No changes detected in sheet
+2025-06-18 01:28:44,643 - INFO - No changes detected in sheet
+2025-06-18 01:29:45,020 - INFO - No changes detected in sheet
+2025-06-18 01:30:45,376 - INFO - No changes detected in sheet
+2025-06-18 01:31:50,112 - INFO - No changes detected in sheet
+2025-06-18 01:33:44,430 - WARNING - Could not fetch sheet data
+2025-06-18 01:41:36,498 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-18 01:41:36,499 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-18 01:41:36,500 - INFO - Bot will check for changes every 60 seconds
+2025-06-18 01:41:36,899 - INFO - Initialized sheet monitoring
+2025-06-18 01:42:37,311 - INFO - No changes detected in sheet
+2025-06-18 14:44:56,195 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-18 14:44:56,195 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-18 14:44:56,195 - INFO - Bot will check for changes every 60 seconds
+2025-06-18 14:44:56,523 - INFO - Initialized sheet monitoring
+2025-06-18 14:45:56,907 - INFO - No changes detected in sheet
+2025-06-18 14:46:57,278 - INFO - No changes detected in sheet
+2025-06-18 14:47:57,654 - INFO - No changes detected in sheet
+2025-06-18 15:14:35,489 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-18 15:14:35,490 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-18 15:14:35,490 - INFO - Bot will check for changes every 60 seconds
+2025-06-18 15:14:35,798 - INFO - Initialized sheet monitoring
+2025-06-18 15:15:36,251 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-18 15:15:36,251 - INFO - Detected change in row for Prince
+2025-06-18 15:15:36,251 - INFO - Detected change in row for 
+2025-06-18 15:15:36,251 - INFO - Detected change in row for 
+2025-06-18 15:15:36,251 - INFO - Detected change in row for 
+2025-06-18 15:15:36,251 - INFO - Detected change in row for 
+2025-06-18 15:15:36,251 - INFO - Detected change in row for 
+2025-06-18 15:15:36,251 - INFO - Detected change in row for 
+2025-06-18 15:15:36,251 - INFO - Detected change in row for 
+2025-06-18 15:15:36,251 - INFO - Found 8 changed rows
+2025-06-18 15:15:36,397 - INFO - -- BEGIN Twilio API Request --
+2025-06-18 15:15:36,397 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-18 15:15:36,397 - INFO - Headers:
+2025-06-18 15:15:36,397 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-18 15:15:36,397 - INFO - Accept : application/json
+2025-06-18 15:15:36,397 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-18 15:15:36,397 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-18 15:15:36,397 - INFO - Accept-Charset : utf-8
+2025-06-18 15:15:36,397 - INFO - -- END Twilio API Request --
+2025-06-18 15:15:37,464 - INFO - Response Status Code: 401
+2025-06-18 15:15:37,464 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Date': 'Wed, 18 Jun 2025 09:45:36 GMT', 'X-Twilio-Error-Code': '20003', 'Twilio-Request-Id': 'RQ8818d848f5611ef22930a73b43b62984', 'Twilio-Request-Duration': '0.013', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'WWW-Authenticate': 'Basic realm="Twilio API"', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 6dd0896c2fe48fc6f9a39d05bf9e45b4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-C2', 'X-Amz-Cf-Id': 'QShkt5kAPgeHYfdvgtGkbKszHjhP8M-Dcx9C_0whNLpfBj8uAawEhA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-18 15:15:37,464 - INFO - -- BEGIN Twilio API Request --
+2025-06-18 15:15:37,464 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-18 15:15:37,464 - INFO - Headers:
+2025-06-18 15:15:37,464 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-18 15:15:37,464 - INFO - Accept : application/json
+2025-06-18 15:15:37,464 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-18 15:15:37,464 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-18 15:15:37,480 - INFO - Accept-Charset : utf-8
+2025-06-18 15:15:37,480 - INFO - -- END Twilio API Request --
+2025-06-18 15:15:38,179 - INFO - Response Status Code: 401
+2025-06-18 15:15:38,179 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Date': 'Wed, 18 Jun 2025 09:45:36 GMT', 'X-Twilio-Error-Code': '20003', 'Twilio-Request-Id': 'RQa17d02e562a1b69f97a083f6ccb9cbe4', 'Twilio-Request-Duration': '0.007', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'WWW-Authenticate': 'Basic realm="Twilio API"', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 6dd0896c2fe48fc6f9a39d05bf9e45b4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-C2', 'X-Amz-Cf-Id': '1pS0TKu4NN4u_0bjRdBhjbjfvhJzx9jvVLjMrri4MvQEWhIcj2HJng==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-18 15:15:38,179 - ERROR - Failed to notify Prince: Failed to send regular message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Authenticate[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20003[0m
+
+
+2025-06-18 15:15:41,193 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:15:44,194 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:15:47,194 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:15:50,195 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:15:53,196 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:15:56,197 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:15:59,198 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:17:02,555 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-18 15:17:02,555 - INFO - Detected change in row for Prince
+2025-06-18 15:17:02,555 - INFO - Detected change in row for 
+2025-06-18 15:17:02,555 - INFO - Detected change in row for 
+2025-06-18 15:17:02,555 - INFO - Detected change in row for 
+2025-06-18 15:17:02,555 - INFO - Detected change in row for 
+2025-06-18 15:17:02,555 - INFO - Detected change in row for 
+2025-06-18 15:17:02,555 - INFO - Detected change in row for 
+2025-06-18 15:17:02,555 - INFO - Detected change in row for 
+2025-06-18 15:17:02,555 - INFO - Found 8 changed rows
+2025-06-18 15:17:02,555 - INFO - -- BEGIN Twilio API Request --
+2025-06-18 15:17:02,555 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-18 15:17:02,562 - INFO - Headers:
+2025-06-18 15:17:02,562 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-18 15:17:02,562 - INFO - Accept : application/json
+2025-06-18 15:17:02,562 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-18 15:17:02,562 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-18 15:17:02,562 - INFO - Accept-Charset : utf-8
+2025-06-18 15:17:02,562 - INFO - -- END Twilio API Request --
+2025-06-18 15:17:03,243 - INFO - Response Status Code: 401
+2025-06-18 15:17:03,243 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Date': 'Wed, 18 Jun 2025 09:47:01 GMT', 'X-Twilio-Error-Code': '20003', 'Twilio-Request-Id': 'RQ90a10c991c899e0797f9d0758225ffb3', 'Twilio-Request-Duration': '0.007', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'WWW-Authenticate': 'Basic realm="Twilio API"', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 6dd0896c2fe48fc6f9a39d05bf9e45b4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-C2', 'X-Amz-Cf-Id': 'dAzISOab1epRUhOocaP_XYQsmslPrxFGJV7mk42uUlySI26yItInwA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-18 15:17:03,243 - INFO - -- BEGIN Twilio API Request --
+2025-06-18 15:17:03,243 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-18 15:17:03,243 - INFO - Headers:
+2025-06-18 15:17:03,243 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-18 15:17:03,243 - INFO - Accept : application/json
+2025-06-18 15:17:03,243 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-18 15:17:03,243 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-18 15:17:03,243 - INFO - Accept-Charset : utf-8
+2025-06-18 15:17:03,243 - INFO - -- END Twilio API Request --
+2025-06-18 15:17:03,972 - INFO - Response Status Code: 401
+2025-06-18 15:17:03,972 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Date': 'Wed, 18 Jun 2025 09:47:02 GMT', 'X-Twilio-Error-Code': '20003', 'Twilio-Request-Id': 'RQ6044505564702445db7dc71bc0c4671f', 'Twilio-Request-Duration': '0.007', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'WWW-Authenticate': 'Basic realm="Twilio API"', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 6dd0896c2fe48fc6f9a39d05bf9e45b4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-C2', 'X-Amz-Cf-Id': '0J3MEF2kUoNQVOwpJ1LRCkU6CwZLme-GQnILRON9XH3evYWScuJU8Q==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-18 15:17:03,972 - ERROR - Failed to notify Prince: Failed to send regular message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Authenticate[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20003[0m
+
+
+2025-06-18 15:17:06,978 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:17:09,978 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:17:12,979 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:17:15,980 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:17:18,981 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:17:21,981 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:17:24,982 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:18:28,310 - INFO - No changes detected in sheet
+2025-06-18 15:19:28,736 - INFO - No changes detected in sheet
+2025-06-18 15:20:29,082 - INFO - No changes detected in sheet
+2025-06-18 15:21:29,560 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-18 15:21:29,560 - INFO - Detected change in row for Prince
+2025-06-18 15:21:29,560 - INFO - Detected change in row for 
+2025-06-18 15:21:29,560 - INFO - Detected change in row for 
+2025-06-18 15:21:29,560 - INFO - Detected change in row for 
+2025-06-18 15:21:29,560 - INFO - Detected change in row for 
+2025-06-18 15:21:29,560 - INFO - Detected change in row for 
+2025-06-18 15:21:29,560 - INFO - Detected change in row for 
+2025-06-18 15:21:29,560 - INFO - Detected change in row for 
+2025-06-18 15:21:29,560 - INFO - Found 8 changed rows
+2025-06-18 15:21:29,560 - INFO - -- BEGIN Twilio API Request --
+2025-06-18 15:21:29,560 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-18 15:21:29,560 - INFO - Headers:
+2025-06-18 15:21:29,560 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-18 15:21:29,560 - INFO - Accept : application/json
+2025-06-18 15:21:29,560 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-18 15:21:29,560 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-18 15:21:29,560 - INFO - Accept-Charset : utf-8
+2025-06-18 15:21:29,560 - INFO - -- END Twilio API Request --
+2025-06-18 15:21:29,967 - INFO - Response Status Code: 401
+2025-06-18 15:21:29,967 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Date': 'Wed, 18 Jun 2025 09:51:28 GMT', 'X-Twilio-Error-Code': '20003', 'Twilio-Request-Id': 'RQf3c323445a86a576233f4facf6743501', 'Twilio-Request-Duration': '0.014', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'WWW-Authenticate': 'Basic realm="Twilio API"', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b45f798736564f5ccd7e5125e950d572.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'tu_LoP3rHSl30F5MUGTGMiEBruU0nascQHLGzdBwWh_D2O0awuiPsA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-18 15:21:29,967 - INFO - -- BEGIN Twilio API Request --
+2025-06-18 15:21:29,967 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-18 15:21:29,967 - INFO - Headers:
+2025-06-18 15:21:29,967 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-18 15:21:29,967 - INFO - Accept : application/json
+2025-06-18 15:21:29,967 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-18 15:21:29,967 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-18 15:21:29,967 - INFO - Accept-Charset : utf-8
+2025-06-18 15:21:29,967 - INFO - -- END Twilio API Request --
+2025-06-18 15:21:30,201 - INFO - Response Status Code: 401
+2025-06-18 15:21:30,201 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Date': 'Wed, 18 Jun 2025 09:51:28 GMT', 'X-Twilio-Error-Code': '20003', 'Twilio-Request-Id': 'RQf052cdb09948ed29fb0d5b1c61a58601', 'Twilio-Request-Duration': '0.006', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'WWW-Authenticate': 'Basic realm="Twilio API"', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b45f798736564f5ccd7e5125e950d572.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': '0a1Lcxll76ALFh9OCVtpXUyF82QmuNPRac4a0CpensrL0u_SXSKACQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-18 15:21:30,201 - ERROR - Failed to notify Prince: Failed to send regular message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Authenticate[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20003[0m
+
+
+2025-06-18 15:21:33,207 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:21:36,208 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:21:39,209 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:21:42,210 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:21:45,211 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:21:48,211 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:21:51,212 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:22:54,589 - INFO - No changes detected in sheet
+2025-06-18 15:23:54,972 - INFO - No changes detected in sheet
+2025-06-18 15:24:11,566 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-18 15:24:11,567 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-18 15:24:11,567 - INFO - Bot will check for changes every 60 seconds
+2025-06-18 15:24:11,940 - INFO - Initialized sheet monitoring
+2025-06-18 15:25:12,262 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-18 15:25:12,262 - INFO - Detected change in row for Prince
+2025-06-18 15:25:12,262 - INFO - Detected change in row for 
+2025-06-18 15:25:12,262 - INFO - Detected change in row for 
+2025-06-18 15:25:12,262 - INFO - Detected change in row for 
+2025-06-18 15:25:12,262 - INFO - Detected change in row for 
+2025-06-18 15:25:12,262 - INFO - Detected change in row for 
+2025-06-18 15:25:12,262 - INFO - Detected change in row for 
+2025-06-18 15:25:12,262 - INFO - Detected change in row for 
+2025-06-18 15:25:12,262 - INFO - Found 8 changed rows
+2025-06-18 15:25:12,346 - INFO - -- BEGIN Twilio API Request --
+2025-06-18 15:25:12,346 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-18 15:25:12,346 - INFO - Headers:
+2025-06-18 15:25:12,346 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-18 15:25:12,346 - INFO - Accept : application/json
+2025-06-18 15:25:12,346 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-18 15:25:12,346 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-18 15:25:12,346 - INFO - Accept-Charset : utf-8
+2025-06-18 15:25:12,346 - INFO - -- END Twilio API Request --
+2025-06-18 15:25:12,956 - INFO - Response Status Code: 201
+2025-06-18 15:25:12,956 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1135', 'Connection': 'keep-alive', 'Date': 'Wed, 18 Jun 2025 09:55:11 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ1190034a690fd59fb8b868190491cf0f', 'Twilio-Request-Duration': '0.144', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 66a578d286581392fe27506451c1bd4e.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-C2', 'X-Amz-Cf-Id': '15d5vfZPlU55d1xCPZT0mXHombHiT3qMX-RuDZdREp6B9diS6Tx6zQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-18 15:25:13,700 - INFO - Notification sent to Prince (919263222643)
+2025-06-18 15:25:16,701 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:25:19,701 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:25:22,702 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:25:25,703 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:25:28,704 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:25:31,705 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:25:34,705 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:26:38,244 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-18 15:26:38,245 - INFO - Detected change in row for 
+2025-06-18 15:26:38,245 - INFO - Detected change in row for 
+2025-06-18 15:26:38,246 - INFO - Detected change in row for 
+2025-06-18 15:26:38,246 - INFO - Detected change in row for 
+2025-06-18 15:26:38,246 - INFO - Detected change in row for 
+2025-06-18 15:26:38,246 - INFO - Detected change in row for 
+2025-06-18 15:26:38,247 - INFO - Detected change in row for 
+2025-06-18 15:26:38,248 - INFO - Found 7 changed rows
+2025-06-18 15:26:38,248 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:26:41,249 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:26:44,249 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:26:47,250 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:26:50,251 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:26:53,251 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:26:56,253 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 15:27:59,715 - INFO - No changes detected in sheet
+2025-06-18 15:29:00,163 - INFO - No changes detected in sheet
+2025-06-18 15:30:00,635 - INFO - No changes detected in sheet
+2025-06-18 15:31:00,980 - INFO - No changes detected in sheet
+2025-06-18 15:32:01,623 - INFO - No changes detected in sheet
+2025-06-18 15:33:02,009 - INFO - No changes detected in sheet
+2025-06-18 15:34:02,434 - INFO - No changes detected in sheet
+2025-06-18 15:35:02,781 - INFO - No changes detected in sheet
+2025-06-18 15:36:03,154 - INFO - No changes detected in sheet
+2025-06-18 15:37:03,652 - INFO - No changes detected in sheet
+2025-06-18 15:38:04,006 - INFO - No changes detected in sheet
+2025-06-18 15:39:04,344 - INFO - No changes detected in sheet
+2025-06-18 15:40:04,682 - INFO - No changes detected in sheet
+2025-06-18 15:41:05,088 - INFO - No changes detected in sheet
+2025-06-18 15:42:05,819 - INFO - No changes detected in sheet
+2025-06-18 15:43:06,227 - INFO - No changes detected in sheet
+2025-06-18 15:44:06,556 - INFO - No changes detected in sheet
+2025-06-18 15:45:06,881 - INFO - No changes detected in sheet
+2025-06-18 15:46:07,413 - INFO - No changes detected in sheet
+2025-06-18 15:47:07,788 - INFO - No changes detected in sheet
+2025-06-18 15:48:08,139 - INFO - No changes detected in sheet
+2025-06-18 15:49:08,494 - INFO - No changes detected in sheet
+2025-06-18 15:50:08,837 - INFO - No changes detected in sheet
+2025-06-18 15:51:09,519 - INFO - No changes detected in sheet
+2025-06-18 15:52:09,884 - INFO - No changes detected in sheet
+2025-06-18 15:53:10,243 - INFO - No changes detected in sheet
+2025-06-18 15:54:10,577 - INFO - No changes detected in sheet
+2025-06-18 15:55:10,919 - INFO - No changes detected in sheet
+2025-06-18 15:56:11,401 - INFO - No changes detected in sheet
+2025-06-18 15:57:11,791 - INFO - No changes detected in sheet
+2025-06-18 15:58:12,146 - INFO - No changes detected in sheet
+2025-06-18 15:59:12,519 - INFO - No changes detected in sheet
+2025-06-18 21:14:18,932 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-18 21:14:18,948 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-18 21:14:18,948 - INFO - Bot will check for changes every 60 seconds
+2025-06-18 21:14:19,299 - INFO - Initialized sheet monitoring
+2025-06-18 21:15:19,748 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-18 21:15:19,748 - INFO - Detected change in row for Prince
+2025-06-18 21:15:19,749 - INFO - Detected change in row for 
+2025-06-18 21:15:19,750 - INFO - Detected change in row for 
+2025-06-18 21:15:19,750 - INFO - Detected change in row for 
+2025-06-18 21:15:19,750 - INFO - Detected change in row for 
+2025-06-18 21:15:19,751 - INFO - Detected change in row for 
+2025-06-18 21:15:19,751 - INFO - Detected change in row for 
+2025-06-18 21:15:19,751 - INFO - Detected change in row for 
+2025-06-18 21:15:19,752 - INFO - Found 8 changed rows
+2025-06-18 21:15:19,882 - INFO - -- BEGIN Twilio API Request --
+2025-06-18 21:15:19,882 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-18 21:15:19,882 - INFO - Headers:
+2025-06-18 21:15:19,882 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-18 21:15:19,882 - INFO - Accept : application/json
+2025-06-18 21:15:19,882 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-18 21:15:19,883 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-18 21:15:19,883 - INFO - Accept-Charset : utf-8
+2025-06-18 21:15:19,883 - INFO - -- END Twilio API Request --
+2025-06-18 21:15:20,434 - INFO - Response Status Code: 201
+2025-06-18 21:15:20,434 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1135', 'Connection': 'keep-alive', 'Date': 'Wed, 18 Jun 2025 15:45:20 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9c3a9db0ffbec341b78a003cd9cecb66', 'Twilio-Request-Duration': '0.135', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 b54ed05222d6420c578fc810016a0a96.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'Y8jj6VDMTlRLrTiLh0Spxx8iKNHgSTrj_o97Vw4Xvgc3coqLa3bmVQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-18 21:15:21,184 - INFO - Notification sent to Prince (919263222643)
+2025-06-18 21:15:24,185 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:15:27,186 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:15:30,186 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:15:33,187 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:15:36,188 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:15:39,189 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:15:42,189 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:16:45,553 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-18 21:16:45,553 - INFO - Detected change in row for 
+2025-06-18 21:16:45,553 - INFO - Detected change in row for 
+2025-06-18 21:16:45,553 - INFO - Detected change in row for 
+2025-06-18 21:16:45,553 - INFO - Detected change in row for 
+2025-06-18 21:16:45,553 - INFO - Detected change in row for 
+2025-06-18 21:16:45,553 - INFO - Detected change in row for 
+2025-06-18 21:16:45,553 - INFO - Detected change in row for 
+2025-06-18 21:16:45,566 - INFO - Found 7 changed rows
+2025-06-18 21:16:45,566 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:16:48,567 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:16:51,568 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:16:54,569 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:16:57,569 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:17:00,570 - ERROR - Failed to notify : Invalid phone number format
+2025-06-18 21:17:03,571 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 12:50:54,968 - INFO - Interview Notification Bot initialized with enhanced change detection
+2025-06-19 12:50:54,968 - INFO - Starting continuous Google Sheets monitoring...
+2025-06-19 12:50:54,968 - INFO - Bot will check for changes every 60 seconds
+2025-06-19 12:50:55,436 - INFO - Initialized sheet monitoring
+2025-06-19 12:51:55,939 - INFO - No changes detected in sheet
+2025-06-19 12:52:56,528 - INFO - No changes detected in sheet
+2025-06-19 12:53:56,928 - INFO - No changes detected in sheet
+2025-06-19 12:54:57,328 - INFO - No changes detected in sheet
+2025-06-19 12:55:57,879 - INFO - No changes detected in sheet
+2025-06-19 12:56:58,427 - INFO - No changes detected in sheet
+2025-06-19 12:57:59,002 - INFO - No changes detected in sheet
+2025-06-19 12:58:59,406 - INFO - No changes detected in sheet
+2025-06-19 12:59:59,803 - INFO - No changes detected in sheet
+2025-06-19 13:01:00,428 - INFO - No changes detected in sheet
+2025-06-19 13:02:00,900 - INFO - No changes detected in sheet
+2025-06-19 13:03:01,330 - INFO - No changes detected in sheet
+2025-06-19 13:04:01,766 - INFO - No changes detected in sheet
+2025-06-19 13:05:02,187 - INFO - No changes detected in sheet
+2025-06-19 13:06:02,703 - INFO - No changes detected in sheet
+2025-06-19 13:07:03,108 - INFO - No changes detected in sheet
+2025-06-19 13:08:03,562 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 13:08:03,562 - INFO - Detected change in row for Prince
+2025-06-19 13:08:03,562 - INFO - Detected change in row for 
+2025-06-19 13:08:03,562 - INFO - Detected change in row for 
+2025-06-19 13:08:03,562 - INFO - Detected change in row for 
+2025-06-19 13:08:03,562 - INFO - Detected change in row for 
+2025-06-19 13:08:03,562 - INFO - Detected change in row for 
+2025-06-19 13:08:03,562 - INFO - Detected change in row for 
+2025-06-19 13:08:03,562 - INFO - Detected change in row for 
+2025-06-19 13:08:03,562 - INFO - Found 8 changed rows
+2025-06-19 13:08:03,689 - INFO - -- BEGIN Twilio API Request --
+2025-06-19 13:08:03,689 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-19 13:08:03,689 - INFO - Headers:
+2025-06-19 13:08:03,689 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-19 13:08:03,689 - INFO - Accept : application/json
+2025-06-19 13:08:03,689 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-19 13:08:03,689 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-19 13:08:03,689 - INFO - Accept-Charset : utf-8
+2025-06-19 13:08:03,689 - INFO - -- END Twilio API Request --
+2025-06-19 13:08:04,310 - INFO - Response Status Code: 201
+2025-06-19 13:08:04,310 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1126', 'Connection': 'keep-alive', 'Date': 'Thu, 19 Jun 2025 07:38:03 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ6f595cc0f7c03c1c4531d4c5c0f07abb', 'Twilio-Request-Duration': '0.137', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 6cbb5ab0cde2993e0fb6176991d8fd62.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'u-KwQhnXiW4Eynv8Ri7n-oB2lbaLYW_sIBjezzfH-vGjbh4DXjLxjQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-19 13:08:05,102 - INFO - Notification sent to Prince (919263222643)
+2025-06-19 13:08:08,105 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:08:11,106 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:08:14,107 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:08:17,108 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:08:20,108 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:08:23,109 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:08:26,109 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:09:29,551 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 13:09:29,551 - INFO - Detected change in row for 
+2025-06-19 13:09:29,551 - INFO - Detected change in row for 
+2025-06-19 13:09:29,551 - INFO - Detected change in row for 
+2025-06-19 13:09:29,551 - INFO - Detected change in row for 
+2025-06-19 13:09:29,551 - INFO - Detected change in row for 
+2025-06-19 13:09:29,551 - INFO - Detected change in row for 
+2025-06-19 13:09:29,551 - INFO - Detected change in row for 
+2025-06-19 13:09:29,551 - INFO - Found 7 changed rows
+2025-06-19 13:09:29,551 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:09:32,560 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:09:35,560 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:09:38,561 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:09:41,562 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:09:44,562 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:09:47,563 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:10:50,994 - INFO - No changes detected in sheet
+2025-06-19 13:11:51,396 - INFO - No changes detected in sheet
+2025-06-19 13:12:51,861 - INFO - No changes detected in sheet
+2025-06-19 13:13:52,278 - INFO - No changes detected in sheet
+2025-06-19 13:14:52,668 - INFO - No changes detected in sheet
+2025-06-19 13:15:53,080 - INFO - No changes detected in sheet
+2025-06-19 13:16:53,548 - INFO - No changes detected in sheet
+2025-06-19 13:17:53,973 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 13:17:53,973 - INFO - Detected change in row for Prince
+2025-06-19 13:17:53,973 - INFO - Detected change in row for 
+2025-06-19 13:17:53,973 - INFO - Detected change in row for 
+2025-06-19 13:17:53,973 - INFO - Detected change in row for 
+2025-06-19 13:17:53,973 - INFO - Detected change in row for 
+2025-06-19 13:17:53,973 - INFO - Detected change in row for 
+2025-06-19 13:17:53,973 - INFO - Detected change in row for 
+2025-06-19 13:17:53,973 - INFO - Detected change in row for 
+2025-06-19 13:17:53,978 - INFO - Found 8 changed rows
+2025-06-19 13:17:53,978 - INFO - -- BEGIN Twilio API Request --
+2025-06-19 13:17:53,978 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-19 13:17:53,978 - INFO - Headers:
+2025-06-19 13:17:53,978 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-19 13:17:53,978 - INFO - Accept : application/json
+2025-06-19 13:17:53,978 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-19 13:17:53,978 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-19 13:17:53,978 - INFO - Accept-Charset : utf-8
+2025-06-19 13:17:53,978 - INFO - -- END Twilio API Request --
+2025-06-19 13:17:54,425 - INFO - Response Status Code: 201
+2025-06-19 13:17:54,425 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1126', 'Connection': 'keep-alive', 'Date': 'Thu, 19 Jun 2025 07:47:54 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ4cc89a57d075a65a6f5bc4fc7fea817b', 'Twilio-Request-Duration': '0.120', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 7466efd38e23df4aeaae0986f151c420.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA51-P3', 'X-Amz-Cf-Id': 'wXoaKP9kqCMrfISg9GeiO_39ZWI5UtP5bfr6PxaqYhxpCkvBozuMmQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-19 13:17:55,196 - INFO - Notification sent to Prince (919263222643)
+2025-06-19 13:17:58,208 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:18:01,209 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:18:04,210 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:18:07,211 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:18:10,212 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:18:13,212 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:18:16,213 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:19:19,680 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 13:19:19,680 - INFO - Detected change in row for 
+2025-06-19 13:19:19,680 - INFO - Detected change in row for 
+2025-06-19 13:19:19,680 - INFO - Detected change in row for 
+2025-06-19 13:19:19,680 - INFO - Detected change in row for 
+2025-06-19 13:19:19,680 - INFO - Detected change in row for 
+2025-06-19 13:19:19,680 - INFO - Detected change in row for 
+2025-06-19 13:19:19,680 - INFO - Detected change in row for 
+2025-06-19 13:19:19,680 - INFO - Found 7 changed rows
+2025-06-19 13:19:19,680 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:19:22,687 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:19:25,687 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:19:28,688 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:19:31,689 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:19:34,689 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:19:37,691 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:20:41,107 - INFO - No changes detected in sheet
+2025-06-19 13:21:41,527 - INFO - No changes detected in sheet
+2025-06-19 13:22:41,985 - INFO - No changes detected in sheet
+2025-06-19 13:23:42,444 - INFO - No changes detected in sheet
+2025-06-19 13:24:42,890 - INFO - No changes detected in sheet
+2025-06-19 13:25:43,312 - INFO - No changes detected in sheet
+2025-06-19 13:26:43,784 - INFO - No changes detected in sheet
+2025-06-19 13:27:44,189 - INFO - No changes detected in sheet
+2025-06-19 13:28:44,653 - INFO - No changes detected in sheet
+2025-06-19 13:29:45,066 - INFO - No changes detected in sheet
+2025-06-19 13:30:45,472 - INFO - No changes detected in sheet
+2025-06-19 13:31:45,894 - INFO - No changes detected in sheet
+2025-06-19 13:32:46,311 - INFO - No changes detected in sheet
+2025-06-19 13:33:46,928 - INFO - No changes detected in sheet
+2025-06-19 13:34:47,341 - INFO - No changes detected in sheet
+2025-06-19 13:35:47,896 - INFO - No changes detected in sheet
+2025-06-19 13:36:48,430 - INFO - No changes detected in sheet
+2025-06-19 13:37:48,990 - INFO - No changes detected in sheet
+2025-06-19 13:38:49,506 - INFO - No changes detected in sheet
+2025-06-19 13:39:50,040 - INFO - No changes detected in sheet
+2025-06-19 13:40:50,875 - INFO - No changes detected in sheet
+2025-06-19 13:41:51,468 - INFO - No changes detected in sheet
+2025-06-19 13:42:52,083 - INFO - No changes detected in sheet
+2025-06-19 13:43:52,656 - INFO - No changes detected in sheet
+2025-06-19 13:44:53,125 - INFO - No changes detected in sheet
+2025-06-19 13:45:53,747 - INFO - No changes detected in sheet
+2025-06-19 13:46:54,264 - INFO - No changes detected in sheet
+2025-06-19 13:47:55,077 - INFO - No changes detected in sheet
+2025-06-19 13:48:55,596 - INFO - No changes detected in sheet
+2025-06-19 13:49:56,221 - INFO - No changes detected in sheet
+2025-06-19 13:50:56,935 - INFO - No changes detected in sheet
+2025-06-19 13:51:57,741 - INFO - No changes detected in sheet
+2025-06-19 13:52:58,466 - INFO - No changes detected in sheet
+2025-06-19 13:53:59,188 - INFO - No changes detected in sheet
+2025-06-19 13:54:59,705 - INFO - No changes detected in sheet
+2025-06-19 13:56:00,127 - INFO - No changes detected in sheet
+2025-06-19 13:57:00,754 - INFO - No changes detected in sheet
+2025-06-19 13:58:01,271 - INFO - No changes detected in sheet
+2025-06-19 13:59:01,765 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 13:59:01,765 - INFO - Detected change in row for 
+2025-06-19 13:59:01,765 - INFO - Detected change in row for 
+2025-06-19 13:59:01,765 - INFO - Detected change in row for 
+2025-06-19 13:59:01,765 - INFO - Detected change in row for 
+2025-06-19 13:59:01,765 - INFO - Detected change in row for 
+2025-06-19 13:59:01,771 - INFO - Detected change in row for 
+2025-06-19 13:59:01,771 - INFO - Detected change in row for 
+2025-06-19 13:59:01,771 - INFO - Found 7 changed rows
+2025-06-19 13:59:01,771 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:59:04,773 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:59:07,773 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:59:10,775 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:59:13,776 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:59:16,778 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 13:59:19,779 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:00:23,279 - INFO - No changes detected in sheet
+2025-06-19 14:01:23,806 - INFO - No changes detected in sheet
+2025-06-19 14:02:24,211 - INFO - No changes detected in sheet
+2025-06-19 14:03:25,036 - INFO - No changes detected in sheet
+2025-06-19 14:04:25,546 - INFO - No changes detected in sheet
+2025-06-19 14:05:26,069 - INFO - No changes detected in sheet
+2025-06-19 14:06:26,597 - INFO - No changes detected in sheet
+2025-06-19 14:07:27,003 - INFO - No changes detected in sheet
+2025-06-19 14:08:27,622 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:08:27,623 - INFO - Detected change in row for 
+2025-06-19 14:08:27,624 - INFO - Detected change in row for 
+2025-06-19 14:08:27,624 - INFO - Detected change in row for 
+2025-06-19 14:08:27,625 - INFO - Detected change in row for 
+2025-06-19 14:08:27,625 - INFO - Detected change in row for 
+2025-06-19 14:08:27,626 - INFO - Detected change in row for 
+2025-06-19 14:08:27,626 - INFO - Detected change in row for 
+2025-06-19 14:08:27,626 - INFO - Found 7 changed rows
+2025-06-19 14:08:27,626 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:08:30,628 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:08:33,630 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:08:36,631 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:08:39,632 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:08:42,634 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:08:45,635 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:09:49,135 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:09:49,135 - INFO - Detected change in row for Prince
+2025-06-19 14:09:49,135 - INFO - Detected change in row for 
+2025-06-19 14:09:49,135 - INFO - Detected change in row for 
+2025-06-19 14:09:49,135 - INFO - Detected change in row for 
+2025-06-19 14:09:49,135 - INFO - Detected change in row for 
+2025-06-19 14:09:49,135 - INFO - Detected change in row for 
+2025-06-19 14:09:49,135 - INFO - Detected change in row for 
+2025-06-19 14:09:49,135 - INFO - Detected change in row for 
+2025-06-19 14:09:49,135 - INFO - Found 8 changed rows
+2025-06-19 14:09:49,135 - INFO - -- BEGIN Twilio API Request --
+2025-06-19 14:09:49,135 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-19 14:09:49,135 - INFO - Headers:
+2025-06-19 14:09:49,135 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-19 14:09:49,135 - INFO - Accept : application/json
+2025-06-19 14:09:49,135 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-19 14:09:49,135 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-19 14:09:49,135 - INFO - Accept-Charset : utf-8
+2025-06-19 14:09:49,135 - INFO - -- END Twilio API Request --
+2025-06-19 14:09:49,944 - INFO - Response Status Code: 201
+2025-06-19 14:09:49,959 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1126', 'Connection': 'keep-alive', 'Date': 'Thu, 19 Jun 2025 08:39:49 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ94b7c4b4292495e8bef39151d804343a', 'Twilio-Request-Duration': '0.122', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 862ad0d356e6ce3df37996e0535556e8.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'QwDcQ1GdGk9ZCqdnvZKaBCPvTN52XzjT7ocyc2tzMowRgl-nVshPEw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-19 14:09:50,978 - INFO - Notification sent to Prince (919263222643)
+2025-06-19 14:09:53,982 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:09:56,984 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:09:59,985 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:10:02,986 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:10:05,987 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:10:08,989 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:10:11,990 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:11:15,449 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:11:15,465 - INFO - Detected change in row for 
+2025-06-19 14:11:15,465 - INFO - Detected change in row for 
+2025-06-19 14:11:15,465 - INFO - Detected change in row for 
+2025-06-19 14:11:15,465 - INFO - Detected change in row for 
+2025-06-19 14:11:15,465 - INFO - Detected change in row for 
+2025-06-19 14:11:15,465 - INFO - Detected change in row for 
+2025-06-19 14:11:15,465 - INFO - Detected change in row for 
+2025-06-19 14:11:15,478 - INFO - Found 7 changed rows
+2025-06-19 14:11:15,478 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:11:18,480 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:11:21,481 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:11:24,482 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:11:27,483 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:11:30,484 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:11:33,485 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:12:37,059 - INFO - No changes detected in sheet
+2025-06-19 14:13:37,489 - INFO - No changes detected in sheet
+2025-06-19 14:14:38,102 - INFO - No changes detected in sheet
+2025-06-19 14:15:38,616 - INFO - No changes detected in sheet
+2025-06-19 14:16:39,108 - INFO - No changes detected in sheet
+2025-06-19 14:17:39,541 - INFO - No changes detected in sheet
+2025-06-19 14:18:40,049 - INFO - No changes detected in sheet
+2025-06-19 14:19:40,516 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:19:40,516 - INFO - Detected change in row for 
+2025-06-19 14:19:40,516 - INFO - Detected change in row for 
+2025-06-19 14:19:40,516 - INFO - Detected change in row for 
+2025-06-19 14:19:40,516 - INFO - Detected change in row for 
+2025-06-19 14:19:40,516 - INFO - Detected change in row for 
+2025-06-19 14:19:40,516 - INFO - Detected change in row for 
+2025-06-19 14:19:40,516 - INFO - Detected change in row for 
+2025-06-19 14:19:40,516 - INFO - Found 7 changed rows
+2025-06-19 14:19:40,516 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:19:43,523 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:19:46,524 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:19:49,526 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:19:52,526 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:19:55,528 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:19:58,529 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:21:01,908 - INFO - No changes detected in sheet
+2025-06-19 14:22:02,289 - INFO - No changes detected in sheet
+2025-06-19 14:23:02,686 - INFO - No changes detected in sheet
+2025-06-19 14:24:03,099 - INFO - No changes detected in sheet
+2025-06-19 14:25:03,624 - INFO - No changes detected in sheet
+2025-06-19 14:26:04,333 - INFO - No changes detected in sheet
+2025-06-19 14:27:34,957 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:27:34,957 - INFO - Detected change in row for Prince
+2025-06-19 14:27:34,957 - INFO - Detected change in row for 
+2025-06-19 14:27:34,957 - INFO - Detected change in row for 
+2025-06-19 14:27:34,957 - INFO - Detected change in row for 
+2025-06-19 14:27:34,957 - INFO - Detected change in row for 
+2025-06-19 14:27:34,957 - INFO - Detected change in row for 
+2025-06-19 14:27:34,957 - INFO - Detected change in row for 
+2025-06-19 14:27:34,957 - INFO - Detected change in row for 
+2025-06-19 14:27:34,957 - INFO - Found 8 changed rows
+2025-06-19 14:27:34,957 - INFO - -- BEGIN Twilio API Request --
+2025-06-19 14:27:34,957 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-19 14:27:34,957 - INFO - Headers:
+2025-06-19 14:27:34,957 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-19 14:27:34,957 - INFO - Accept : application/json
+2025-06-19 14:27:34,957 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-19 14:27:34,957 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-19 14:27:34,957 - INFO - Accept-Charset : utf-8
+2025-06-19 14:27:34,957 - INFO - -- END Twilio API Request --
+2025-06-19 14:27:35,763 - INFO - Response Status Code: 201
+2025-06-19 14:27:35,778 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1008', 'Connection': 'keep-alive', 'Date': 'Thu, 19 Jun 2025 08:57:35 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQdbdcb0c2a3f272eb3ef5065a654304dc', 'Twilio-Request-Duration': '0.180', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 d09c5b9f0ed9f1b6b50d896f134016f4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': '-Z-4MUeuKPDRSLrCVaZKzdnfMP51OV7OpqWUlHVOMfNKCBpRUQS95g==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-19 14:27:36,692 - INFO - Notification sent to Prince (919263222643)
+2025-06-19 14:27:39,694 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:27:42,694 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:27:45,695 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:27:48,696 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:27:51,697 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:27:54,697 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:27:57,698 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:29:31,277 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:29:31,277 - INFO - Detected change in row for Diwakar
+2025-06-19 14:29:31,277 - INFO - Detected change in row for 
+2025-06-19 14:29:31,277 - INFO - Detected change in row for 
+2025-06-19 14:29:31,277 - INFO - Detected change in row for 
+2025-06-19 14:29:31,277 - INFO - Detected change in row for 
+2025-06-19 14:29:31,277 - INFO - Detected change in row for 
+2025-06-19 14:29:31,277 - INFO - Detected change in row for 
+2025-06-19 14:29:31,277 - INFO - Detected change in row for 
+2025-06-19 14:29:31,277 - INFO - Found 8 changed rows
+2025-06-19 14:29:31,277 - INFO - -- BEGIN Twilio API Request --
+2025-06-19 14:29:31,277 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-19 14:29:31,277 - INFO - Headers:
+2025-06-19 14:29:31,277 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-19 14:29:31,277 - INFO - Accept : application/json
+2025-06-19 14:29:31,277 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-19 14:29:31,277 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-19 14:29:31,277 - INFO - Accept-Charset : utf-8
+2025-06-19 14:29:31,277 - INFO - -- END Twilio API Request --
+2025-06-19 14:29:31,786 - INFO - Response Status Code: 201
+2025-06-19 14:29:31,786 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1001', 'Connection': 'keep-alive', 'Date': 'Thu, 19 Jun 2025 08:59:31 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ57b10243ef654303b59536c2309a4ffe', 'Twilio-Request-Duration': '0.104', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 d09c5b9f0ed9f1b6b50d896f134016f4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'PWm5macF4BNXS6s7X3AFQTyG-hRmr9UecjKVf9AB8PrPdzXiGpM7FA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-19 14:29:32,809 - INFO - Notification sent to Diwakar (918465878058)
+2025-06-19 14:29:35,820 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:29:38,820 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:29:41,821 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:29:44,821 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:29:47,822 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:29:50,823 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:29:53,823 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:31:27,389 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:31:27,390 - INFO - Detected change in row for 
+2025-06-19 14:31:27,390 - INFO - Detected change in row for 
+2025-06-19 14:31:27,391 - INFO - Detected change in row for 
+2025-06-19 14:31:27,391 - INFO - Detected change in row for 
+2025-06-19 14:31:27,391 - INFO - Detected change in row for 
+2025-06-19 14:31:27,392 - INFO - Detected change in row for 
+2025-06-19 14:31:27,392 - INFO - Detected change in row for 
+2025-06-19 14:31:27,392 - INFO - Found 7 changed rows
+2025-06-19 14:31:27,393 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:31:30,394 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:31:33,395 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:31:36,395 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:31:39,396 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:31:42,399 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:31:45,400 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:32:49,309 - INFO - No changes detected in sheet
+2025-06-19 14:34:19,684 - INFO - No changes detected in sheet
+2025-06-19 14:35:20,105 - INFO - No changes detected in sheet
+2025-06-19 14:36:20,614 - INFO - No changes detected in sheet
+2025-06-19 14:37:21,023 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:37:21,023 - INFO - Detected change in row for Diwakar
+2025-06-19 14:37:21,023 - INFO - Detected change in row for 
+2025-06-19 14:37:21,023 - INFO - Detected change in row for 
+2025-06-19 14:37:21,038 - INFO - Detected change in row for 
+2025-06-19 14:37:21,038 - INFO - Detected change in row for 
+2025-06-19 14:37:21,038 - INFO - Detected change in row for 
+2025-06-19 14:37:21,038 - INFO - Detected change in row for 
+2025-06-19 14:37:21,038 - INFO - Detected change in row for 
+2025-06-19 14:37:21,038 - INFO - Found 8 changed rows
+2025-06-19 14:37:21,038 - INFO - -- BEGIN Twilio API Request --
+2025-06-19 14:37:21,038 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-19 14:37:21,038 - INFO - Headers:
+2025-06-19 14:37:21,038 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-19 14:37:21,038 - INFO - Accept : application/json
+2025-06-19 14:37:21,038 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-19 14:37:21,038 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-19 14:37:21,038 - INFO - Accept-Charset : utf-8
+2025-06-19 14:37:21,038 - INFO - -- END Twilio API Request --
+2025-06-19 14:37:21,743 - INFO - Response Status Code: 201
+2025-06-19 14:37:21,743 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1012', 'Connection': 'keep-alive', 'Date': 'Thu, 19 Jun 2025 09:07:21 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ8251f5147ca041827f541e740c5efdb4', 'Twilio-Request-Duration': '0.123', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 6823cd153342c75bafd9f3ccef105646.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': '4JQt-_OKShYyguT0otzfP8EYweaPrM9PGf5CAX90SoASPWp79QtGEQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-19 14:37:22,729 - INFO - Notification sent to Diwakar (918465878058)
+2025-06-19 14:37:25,737 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:37:28,737 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:37:31,737 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:37:34,738 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:37:37,739 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:37:40,740 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:37:43,740 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:39:17,152 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:39:17,152 - INFO - Detected change in row for 
+2025-06-19 14:39:17,152 - INFO - Detected change in row for 
+2025-06-19 14:39:17,152 - INFO - Detected change in row for 
+2025-06-19 14:39:17,152 - INFO - Detected change in row for 
+2025-06-19 14:39:17,152 - INFO - Detected change in row for 
+2025-06-19 14:39:17,152 - INFO - Detected change in row for 
+2025-06-19 14:39:17,152 - INFO - Detected change in row for 
+2025-06-19 14:39:17,152 - INFO - Found 7 changed rows
+2025-06-19 14:39:17,152 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:39:20,159 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:39:23,161 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:39:26,162 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:39:29,162 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:39:32,164 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:39:35,165 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:41:08,723 - INFO - No changes detected in sheet
+2025-06-19 14:42:39,086 - INFO - No changes detected in sheet
+2025-06-19 14:43:39,475 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:43:39,475 - INFO - Detected change in row for 
+2025-06-19 14:43:39,476 - INFO - Detected change in row for 
+2025-06-19 14:43:39,476 - INFO - Detected change in row for 
+2025-06-19 14:43:39,476 - INFO - Detected change in row for 
+2025-06-19 14:43:39,477 - INFO - Detected change in row for 
+2025-06-19 14:43:39,477 - INFO - Detected change in row for 
+2025-06-19 14:43:39,477 - INFO - Detected change in row for 
+2025-06-19 14:43:39,477 - INFO - Found 7 changed rows
+2025-06-19 14:43:39,477 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:43:42,478 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:43:45,479 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:43:48,480 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:43:51,481 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:43:54,481 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:43:57,482 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:45:31,036 - INFO - No changes detected in sheet
+2025-06-19 14:46:31,420 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:46:31,420 - INFO - Detected change in row for 
+2025-06-19 14:46:31,420 - INFO - Detected change in row for 
+2025-06-19 14:46:31,420 - INFO - Detected change in row for 
+2025-06-19 14:46:31,420 - INFO - Detected change in row for 
+2025-06-19 14:46:31,420 - INFO - Detected change in row for 
+2025-06-19 14:46:31,420 - INFO - Detected change in row for 
+2025-06-19 14:46:31,420 - INFO - Detected change in row for 
+2025-06-19 14:46:31,420 - INFO - Found 7 changed rows
+2025-06-19 14:46:31,420 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:46:34,428 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:46:37,428 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:46:40,429 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:46:43,430 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:46:46,430 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:46:49,431 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:48:22,827 - INFO - No changes detected in sheet
+2025-06-19 14:49:23,213 - INFO - No changes detected in sheet
+2025-06-19 14:50:53,604 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:50:53,604 - INFO - Detected change in row for 
+2025-06-19 14:50:53,604 - INFO - Detected change in row for 
+2025-06-19 14:50:53,604 - INFO - Detected change in row for 
+2025-06-19 14:50:53,604 - INFO - Detected change in row for 
+2025-06-19 14:50:53,604 - INFO - Detected change in row for 
+2025-06-19 14:50:53,615 - INFO - Detected change in row for 
+2025-06-19 14:50:53,615 - INFO - Detected change in row for 
+2025-06-19 14:50:53,615 - INFO - Detected change in row for 
+2025-06-19 14:50:53,615 - INFO - Detected change in row for Akasmat
+2025-06-19 14:50:53,615 - INFO - Found 9 changed rows
+2025-06-19 14:50:53,615 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:50:56,617 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:50:59,617 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:51:02,618 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:51:05,619 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:51:08,619 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:51:11,620 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:51:14,621 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:51:17,621 - INFO - -- BEGIN Twilio API Request --
+2025-06-19 14:51:17,621 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC78c7dd7ec6c72475d9316f90ff846448/Messages.json
+2025-06-19 14:51:17,621 - INFO - Headers:
+2025-06-19 14:51:17,621 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-19 14:51:17,621 - INFO - Accept : application/json
+2025-06-19 14:51:17,621 - INFO - User-Agent : twilio-python/9.6.2 (Windows AMD64) Python/3.11.5
+2025-06-19 14:51:17,621 - INFO - X-Twilio-Client : python-9.6.2
+2025-06-19 14:51:17,621 - INFO - Accept-Charset : utf-8
+2025-06-19 14:51:17,621 - INFO - -- END Twilio API Request --
+2025-06-19 14:51:18,265 - INFO - Response Status Code: 201
+2025-06-19 14:51:18,280 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1115', 'Connection': 'keep-alive', 'Date': 'Thu, 19 Jun 2025 09:21:17 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc811605bd655cb6f25b65af076994274', 'Twilio-Request-Duration': '0.132', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 e298dbeec0761926a898e5976abbf698.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BLR50-P3', 'X-Amz-Cf-Id': 'kDFWBL4fPYxXMmHBGPnC6PLxcqrmGOiy45qiI9qaB0-YshpEICxsqg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-19 14:51:19,013 - INFO - Notification sent to Akasmat (918564061724)
+2025-06-19 14:52:52,378 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:52:52,378 - INFO - Detected change in row for 
+2025-06-19 14:52:52,378 - INFO - Detected change in row for 
+2025-06-19 14:52:52,378 - INFO - Detected change in row for 
+2025-06-19 14:52:52,378 - INFO - Detected change in row for 
+2025-06-19 14:52:52,378 - INFO - Detected change in row for 
+2025-06-19 14:52:52,378 - INFO - Found 5 changed rows
+2025-06-19 14:52:52,378 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:52:55,389 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:52:58,389 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:53:01,390 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:53:04,391 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:54:37,765 - INFO - No changes detected in sheet
+2025-06-19 14:56:08,254 - INFO - No changes detected in sheet
+2025-06-19 14:57:08,607 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 14:57:08,607 - INFO - Detected change in row for 
+2025-06-19 14:57:08,607 - INFO - Detected change in row for 
+2025-06-19 14:57:08,607 - INFO - Detected change in row for 
+2025-06-19 14:57:08,607 - INFO - Detected change in row for 
+2025-06-19 14:57:08,607 - INFO - Detected change in row for 
+2025-06-19 14:57:08,607 - INFO - Found 5 changed rows
+2025-06-19 14:57:08,607 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:57:11,617 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:57:14,618 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:57:17,618 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:57:20,619 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 14:58:53,956 - INFO - No changes detected in sheet
+2025-06-19 15:00:24,363 - INFO - No changes detected in sheet
+2025-06-19 15:01:54,767 - INFO - No changes detected in sheet
+2025-06-19 15:03:25,145 - INFO - No changes detected in sheet
+2025-06-19 15:04:25,549 - INFO - No changes detected in sheet
+2025-06-19 15:05:56,005 - INFO - No changes detected in sheet
+2025-06-19 15:06:56,493 - INFO - No changes detected in sheet
+2025-06-19 15:08:26,928 - INFO - No changes detected in sheet
+2025-06-19 15:09:57,322 - INFO - No changes detected in sheet
+2025-06-19 15:10:57,752 - INFO - No changes detected in sheet
+2025-06-19 15:11:58,140 - INFO - No changes detected in sheet
+2025-06-19 15:12:58,523 - INFO - No changes detected in sheet
+2025-06-19 15:13:58,907 - INFO - No changes detected in sheet
+2025-06-19 15:14:59,286 - INFO - No changes detected in sheet
+2025-06-19 15:16:29,736 - INFO - No changes detected in sheet
+2025-06-19 15:18:00,127 - INFO - No changes detected in sheet
+2025-06-19 15:19:30,533 - INFO - No changes detected in sheet
+2025-06-19 15:21:01,031 - INFO - No changes detected in sheet
+2025-06-19 15:22:31,405 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 15:22:31,406 - INFO - Detected change in row for 
+2025-06-19 15:22:31,406 - INFO - Detected change in row for 
+2025-06-19 15:22:31,406 - INFO - Detected change in row for 
+2025-06-19 15:22:31,407 - INFO - Detected change in row for 
+2025-06-19 15:22:31,407 - INFO - Detected change in row for 
+2025-06-19 15:22:31,408 - INFO - Found 5 changed rows
+2025-06-19 15:22:31,408 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 15:22:34,409 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 15:22:37,409 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 15:22:40,410 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 15:22:43,410 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 15:24:16,801 - INFO - No changes detected in sheet
+2025-06-19 15:25:47,190 - INFO - No changes detected in sheet
+2025-06-19 15:27:17,691 - INFO - No changes detected in sheet
+2025-06-19 15:28:48,125 - INFO - No changes detected in sheet
+2025-06-19 15:30:18,584 - INFO - No changes detected in sheet
+2025-06-19 15:31:49,065 - INFO - No changes detected in sheet
+2025-06-19 15:32:49,688 - INFO - No changes detected in sheet
+2025-06-19 15:34:20,152 - INFO - No changes detected in sheet
+2025-06-19 15:35:20,700 - INFO - No changes detected in sheet
+2025-06-19 15:36:51,101 - INFO - No changes detected in sheet
+2025-06-19 15:37:51,681 - INFO - No changes detected in sheet
+2025-06-19 15:38:52,104 - INFO - No changes detected in sheet
+2025-06-19 15:39:52,577 - INFO - No changes detected in sheet
+2025-06-19 15:40:53,029 - INFO - No changes detected in sheet
+2025-06-19 15:41:53,715 - INFO - No changes detected in sheet
+2025-06-19 15:42:54,212 - INFO - No changes detected in sheet
+2025-06-19 15:43:54,711 - INFO - No changes detected in sheet
+2025-06-19 15:44:55,159 - INFO - No changes detected in sheet
+2025-06-19 15:45:55,656 - INFO - No changes detected in sheet
+2025-06-19 15:46:56,058 - INFO - No changes detected in sheet
+2025-06-19 15:47:56,436 - INFO - No changes detected in sheet
+2025-06-19 15:48:56,819 - INFO - No changes detected in sheet
+2025-06-19 15:49:57,278 - INFO - No changes detected in sheet
+2025-06-19 15:50:57,779 - INFO - No changes detected in sheet
+2025-06-19 15:51:58,227 - INFO - No changes detected in sheet
+2025-06-19 15:52:58,619 - INFO - No changes detected in sheet
+2025-06-19 15:53:58,987 - INFO - No changes detected in sheet
+2025-06-19 15:54:59,398 - INFO - No changes detected in sheet
+2025-06-19 15:56:29,921 - INFO - No changes detected in sheet
+2025-06-19 15:57:30,308 - INFO - No changes detected in sheet
+2025-06-19 15:58:30,703 - INFO - No changes detected in sheet
+2025-06-19 15:59:31,097 - INFO - No changes detected in sheet
+2025-06-19 16:00:31,493 - INFO - No changes detected in sheet
+2025-06-19 16:01:31,992 - INFO - No changes detected in sheet
+2025-06-19 16:03:02,491 - INFO - No changes detected in sheet
+2025-06-19 16:04:02,900 - INFO - No changes detected in sheet
+2025-06-19 16:05:03,318 - INFO - No changes detected in sheet
+2025-06-19 16:06:03,742 - INFO - No changes detected in sheet
+2025-06-19 16:07:04,313 - INFO - No changes detected in sheet
+2025-06-19 16:08:04,737 - INFO - No changes detected in sheet
+2025-06-19 16:09:05,128 - INFO - No changes detected in sheet
+2025-06-19 16:10:05,517 - INFO - No changes detected in sheet
+2025-06-19 16:11:05,935 - INFO - No changes detected in sheet
+2025-06-19 16:12:06,433 - INFO - No changes detected in sheet
+2025-06-19 16:13:06,927 - INFO - No changes detected in sheet
+2025-06-19 16:14:07,332 - INFO - No changes detected in sheet
+2025-06-19 16:15:07,815 - INFO - No changes detected in sheet
+2025-06-19 16:16:08,240 - INFO - No changes detected in sheet
+2025-06-19 16:17:08,725 - INFO - No changes detected in sheet
+2025-06-19 16:18:09,145 - INFO - No changes detected in sheet
+2025-06-19 16:19:09,579 - INFO - No changes detected in sheet
+2025-06-19 16:20:09,960 - INFO - No changes detected in sheet
+2025-06-19 16:21:10,349 - INFO - No changes detected in sheet
+2025-06-19 16:22:10,871 - INFO - No changes detected in sheet
+2025-06-19 16:23:11,275 - INFO - No changes detected in sheet
+2025-06-19 16:24:11,663 - INFO - No changes detected in sheet
+2025-06-19 16:25:12,077 - INFO - No changes detected in sheet
+2025-06-19 16:26:12,473 - INFO - No changes detected in sheet
+2025-06-19 16:27:13,024 - INFO - No changes detected in sheet
+2025-06-19 16:28:13,430 - INFO - No changes detected in sheet
+2025-06-19 16:29:13,846 - INFO - No changes detected in sheet
+2025-06-19 16:30:14,299 - INFO - No changes detected in sheet
+2025-06-19 16:31:14,759 - INFO - No changes detected in sheet
+2025-06-19 16:32:15,510 - INFO - No changes detected in sheet
+2025-06-19 16:33:15,897 - INFO - No changes detected in sheet
+2025-06-19 16:34:16,339 - INFO - No changes detected in sheet
+2025-06-19 16:35:16,919 - INFO - No changes detected in sheet
+2025-06-19 16:36:17,314 - INFO - No changes detected in sheet
+2025-06-19 16:37:17,820 - INFO - No changes detected in sheet
+2025-06-19 16:38:18,554 - INFO - No changes detected in sheet
+2025-06-19 16:39:18,977 - INFO - No changes detected in sheet
+2025-06-19 16:40:19,367 - INFO - No changes detected in sheet
+2025-06-19 16:41:19,835 - INFO - No changes detected in sheet
+2025-06-19 16:42:20,319 - INFO - No changes detected in sheet
+2025-06-19 16:43:20,727 - INFO - No changes detected in sheet
+2025-06-19 16:44:21,115 - INFO - No changes detected in sheet
+2025-06-19 16:45:21,626 - INFO - No changes detected in sheet
+2025-06-19 16:46:22,039 - INFO - No changes detected in sheet
+2025-06-19 16:47:22,611 - INFO - No changes detected in sheet
+2025-06-19 16:48:23,012 - INFO - No changes detected in sheet
+2025-06-19 16:49:23,437 - INFO - No changes detected in sheet
+2025-06-19 16:50:23,856 - INFO - No changes detected in sheet
+2025-06-19 16:51:24,246 - INFO - No changes detected in sheet
+2025-06-19 16:52:24,758 - INFO - No changes detected in sheet
+2025-06-19 16:53:25,188 - INFO - No changes detected in sheet
+2025-06-19 16:54:25,557 - INFO - No changes detected in sheet
+2025-06-19 16:55:25,971 - INFO - No changes detected in sheet
+2025-06-19 16:56:26,443 - INFO - No changes detected in sheet
+2025-06-19 16:57:26,930 - INFO - No changes detected in sheet
+2025-06-19 16:58:27,355 - INFO - No changes detected in sheet
+2025-06-19 16:59:27,797 - INFO - No changes detected in sheet
+2025-06-19 17:00:28,228 - INFO - No changes detected in sheet
+2025-06-19 17:01:28,630 - INFO - No changes detected in sheet
+2025-06-19 17:02:29,115 - INFO - No changes detected in sheet
+2025-06-19 17:03:29,539 - INFO - No changes detected in sheet
+2025-06-19 17:04:29,938 - INFO - No changes detected in sheet
+2025-06-19 17:05:30,335 - INFO - No changes detected in sheet
+2025-06-19 17:06:30,837 - INFO - No changes detected in sheet
+2025-06-19 17:07:31,409 - INFO - No changes detected in sheet
+2025-06-19 17:08:31,788 - INFO - No changes detected in sheet
+2025-06-19 17:09:32,201 - INFO - No changes detected in sheet
+2025-06-19 17:10:32,616 - INFO - No changes detected in sheet
+2025-06-19 17:11:33,009 - INFO - No changes detected in sheet
+2025-06-19 17:12:33,630 - INFO - No changes detected in sheet
+2025-06-19 17:13:34,037 - INFO - No changes detected in sheet
+2025-06-19 17:14:34,453 - INFO - No changes detected in sheet
+2025-06-19 17:15:34,858 - INFO - No changes detected in sheet
+2025-06-19 17:16:35,276 - INFO - No changes detected in sheet
+2025-06-19 17:17:35,792 - INFO - No changes detected in sheet
+2025-06-19 17:18:36,197 - INFO - No changes detected in sheet
+2025-06-19 17:19:36,595 - INFO - No changes detected in sheet
+2025-06-19 17:20:36,960 - INFO - No changes detected in sheet
+2025-06-19 17:21:37,349 - INFO - No changes detected in sheet
+2025-06-19 17:22:37,832 - INFO - No changes detected in sheet
+2025-06-19 17:23:38,327 - INFO - No changes detected in sheet
+2025-06-19 17:24:38,703 - INFO - No changes detected in sheet
+2025-06-19 17:25:39,177 - INFO - No changes detected in sheet
+2025-06-19 17:26:39,633 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 17:26:39,633 - INFO - Detected change in row for 
+2025-06-19 17:26:39,633 - INFO - Detected change in row for 
+2025-06-19 17:26:39,633 - INFO - Detected change in row for 
+2025-06-19 17:26:39,633 - INFO - Detected change in row for 
+2025-06-19 17:26:39,633 - INFO - Detected change in row for 
+2025-06-19 17:26:39,633 - INFO - Found 5 changed rows
+2025-06-19 17:26:39,633 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 17:26:42,638 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 17:26:45,639 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 17:26:48,640 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 17:26:51,640 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 17:27:55,051 - INFO - No changes detected in sheet
+2025-06-19 17:28:55,464 - INFO - No changes detected in sheet
+2025-06-19 17:29:55,864 - INFO - No changes detected in sheet
+2025-06-19 17:30:56,294 - INFO - No changes detected in sheet
+2025-06-19 17:31:56,793 - INFO - No changes detected in sheet
+2025-06-19 17:32:57,431 - INFO - No changes detected in sheet
+2025-06-19 17:33:58,019 - INFO - No changes detected in sheet
+2025-06-19 17:34:58,717 - INFO - No changes detected in sheet
+2025-06-19 17:35:59,292 - INFO - No changes detected in sheet
+2025-06-19 17:36:59,801 - INFO - No changes detected in sheet
+2025-06-19 17:38:00,222 - INFO - No changes detected in sheet
+2025-06-19 17:39:00,640 - INFO - No changes detected in sheet
+2025-06-19 17:40:01,047 - INFO - No changes detected in sheet
+2025-06-19 17:41:01,444 - INFO - No changes detected in sheet
+2025-06-19 17:42:01,940 - INFO - No changes detected in sheet
+2025-06-19 17:43:02,339 - INFO - No changes detected in sheet
+2025-06-19 17:44:02,769 - INFO - No changes detected in sheet
+2025-06-19 17:45:03,270 - INFO - No changes detected in sheet
+2025-06-19 17:46:03,699 - INFO - No changes detected in sheet
+2025-06-19 17:47:04,195 - INFO - No changes detected in sheet
+2025-06-19 17:48:04,593 - INFO - No changes detected in sheet
+2025-06-19 17:49:04,990 - INFO - No changes detected in sheet
+2025-06-19 17:50:05,386 - INFO - No changes detected in sheet
+2025-06-19 17:51:05,797 - INFO - No changes detected in sheet
+2025-06-19 17:52:06,337 - INFO - No changes detected in sheet
+2025-06-19 17:53:06,722 - INFO - No changes detected in sheet
+2025-06-19 17:54:07,128 - INFO - No changes detected in sheet
+2025-06-19 17:55:07,556 - INFO - No changes detected in sheet
+2025-06-19 17:56:07,951 - INFO - No changes detected in sheet
+2025-06-19 17:57:08,435 - INFO - No changes detected in sheet
+2025-06-19 17:58:08,834 - INFO - No changes detected in sheet
+2025-06-19 17:59:09,393 - INFO - No changes detected in sheet
+2025-06-19 18:00:09,834 - INFO - No changes detected in sheet
+2025-06-19 18:01:10,215 - INFO - No changes detected in sheet
+2025-06-19 18:02:10,750 - INFO - No changes detected in sheet
+2025-06-19 18:03:11,150 - INFO - No changes detected in sheet
+2025-06-19 18:04:11,582 - INFO - No changes detected in sheet
+2025-06-19 18:05:12,066 - INFO - No changes detected in sheet
+2025-06-19 18:06:12,462 - INFO - No changes detected in sheet
+2025-06-19 18:07:13,145 - INFO - No changes detected in sheet
+2025-06-19 18:08:13,534 - INFO - No changes detected in sheet
+2025-06-19 18:09:13,935 - INFO - No changes detected in sheet
+2025-06-19 18:10:14,360 - INFO - No changes detected in sheet
+2025-06-19 18:11:14,785 - INFO - No changes detected in sheet
+2025-06-19 18:12:15,555 - INFO - No changes detected in sheet
+2025-06-19 18:13:15,969 - INFO - No changes detected in sheet
+2025-06-19 18:14:16,363 - INFO - No changes detected in sheet
+2025-06-19 18:15:16,839 - INFO - No changes detected in sheet
+2025-06-19 18:16:17,265 - INFO - No changes detected in sheet
+2025-06-19 18:17:17,679 - INFO - No changes detected in sheet
+2025-06-19 18:18:18,153 - INFO - No changes detected in sheet
+2025-06-19 18:19:18,539 - INFO - Sheet changes detected! Analyzing specific changes...
+2025-06-19 18:19:18,539 - INFO - Detected change in row for 
+2025-06-19 18:19:18,539 - INFO - Detected change in row for 
+2025-06-19 18:19:18,539 - INFO - Detected change in row for 
+2025-06-19 18:19:18,539 - INFO - Detected change in row for 
+2025-06-19 18:19:18,539 - INFO - Detected change in row for 
+2025-06-19 18:19:18,539 - INFO - Found 5 changed rows
+2025-06-19 18:19:18,539 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 18:19:21,550 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 18:19:24,551 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 18:19:27,552 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 18:19:30,553 - ERROR - Failed to notify : Invalid phone number format
+2025-06-19 18:20:33,970 - INFO - No changes detected in sheet
+2025-06-19 18:21:34,384 - INFO - No changes detected in sheet
+2025-06-19 18:22:34,894 - INFO - No changes detected in sheet
+2025-06-19 18:23:35,277 - INFO - No changes detected in sheet
+2025-06-19 18:24:35,827 - INFO - No changes detected in sheet
+2025-06-19 18:25:36,245 - INFO - No changes detected in sheet
+2025-06-19 18:26:36,743 - INFO - No changes detected in sheet
+2025-06-19 18:27:37,140 - INFO - No changes detected in sheet
+2025-06-19 18:28:37,726 - INFO - No changes detected in sheet
+2025-06-19 18:29:38,151 - INFO - No changes detected in sheet
+2025-06-19 18:30:38,558 - INFO - No changes detected in sheet
+2025-06-19 18:31:39,281 - INFO - No changes detected in sheet
+2025-06-19 18:32:39,779 - INFO - No changes detected in sheet
+2025-06-19 18:33:40,254 - INFO - No changes detected in sheet
+2025-06-19 18:34:40,637 - INFO - No changes detected in sheet
+2025-06-19 18:35:41,141 - INFO - No changes detected in sheet
+2025-06-19 18:36:41,741 - INFO - No changes detected in sheet
+2025-06-19 18:37:42,208 - INFO - No changes detected in sheet
+2025-06-19 18:38:42,685 - INFO - No changes detected in sheet
+2025-06-19 18:39:43,119 - INFO - No changes detected in sheet
+2025-06-19 18:40:43,586 - INFO - No changes detected in sheet
+2025-06-19 18:41:44,089 - INFO - No changes detected in sheet
+2025-06-19 18:42:44,472 - INFO - No changes detected in sheet
+2025-06-19 18:43:44,941 - INFO - No changes detected in sheet
+2025-06-19 18:44:45,322 - INFO - No changes detected in sheet
+2025-06-19 18:45:45,764 - INFO - No changes detected in sheet
+2025-06-19 18:46:46,247 - INFO - No changes detected in sheet
+2025-06-19 18:47:46,737 - INFO - No changes detected in sheet
+2025-06-19 18:48:47,170 - INFO - No changes detected in sheet
+2025-06-19 18:49:47,570 - INFO - No changes detected in sheet
+2025-06-19 18:50:47,971 - INFO - No changes detected in sheet
+2025-06-19 18:51:48,485 - INFO - No changes detected in sheet
+2025-06-19 18:52:48,875 - INFO - No changes detected in sheet
+2025-06-19 18:53:49,286 - INFO - No changes detected in sheet
+2025-06-19 18:54:49,698 - INFO - No changes detected in sheet
+2025-06-19 18:55:50,219 - INFO - No changes detected in sheet
+2025-06-19 18:56:50,684 - INFO - No changes detected in sheet
+2025-06-19 18:57:51,166 - INFO - No changes detected in sheet
+2025-06-19 18:58:51,627 - INFO - No changes detected in sheet
+2025-06-19 18:59:52,040 - INFO - No changes detected in sheet
+2025-06-19 19:00:52,476 - INFO - No changes detected in sheet
+2025-06-19 19:01:52,998 - INFO - No changes detected in sheet
+2025-06-19 19:02:53,387 - INFO - No changes detected in sheet
+2025-06-19 19:03:53,800 - INFO - No changes detected in sheet
+2025-06-19 19:04:54,305 - INFO - No changes detected in sheet
+2025-06-19 19:05:54,733 - INFO - No changes detected in sheet
+2025-06-19 19:06:55,200 - INFO - No changes detected in sheet
+2025-06-19 19:07:55,619 - INFO - No changes detected in sheet
+2025-06-19 19:08:56,041 - INFO - No changes detected in sheet
+2025-06-19 19:09:56,515 - INFO - No changes detected in sheet
+2025-06-19 19:10:57,102 - INFO - No changes detected in sheet
+2025-06-19 19:11:57,715 - INFO - No changes detected in sheet
+2025-06-19 19:12:58,115 - INFO - No changes detected in sheet
+2025-06-19 19:13:58,516 - INFO - No changes detected in sheet
+2025-06-19 19:14:58,921 - INFO - No changes detected in sheet
+2025-06-19 19:15:59,308 - INFO - No changes detected in sheet
+2025-06-19 19:16:59,788 - INFO - No changes detected in sheet
+2025-06-19 19:18:00,190 - INFO - No changes detected in sheet
+2025-06-19 19:19:00,599 - INFO - No changes detected in sheet
+2025-06-19 19:20:00,983 - INFO - No changes detected in sheet
+2025-06-19 19:21:01,448 - INFO - No changes detected in sheet
+2025-06-19 19:22:01,971 - INFO - No changes detected in sheet
+2025-06-19 19:23:02,393 - INFO - No changes detected in sheet
+2025-06-19 19:24:02,806 - INFO - No changes detected in sheet
+2025-06-19 19:25:03,212 - INFO - No changes detected in sheet
+2025-06-19 19:26:03,674 - INFO - No changes detected in sheet
+2025-06-19 19:27:04,175 - INFO - No changes detected in sheet
+2025-06-19 19:28:04,831 - INFO - No changes detected in sheet
+2025-06-19 19:29:05,474 - INFO - No changes detected in sheet
+2025-06-19 19:30:05,914 - INFO - No changes detected in sheet
+2025-06-19 19:31:06,374 - INFO - No changes detected in sheet
+2025-06-19 19:32:06,960 - INFO - No changes detected in sheet
+2025-06-19 19:33:07,360 - INFO - No changes detected in sheet
+2025-06-19 19:34:07,753 - INFO - No changes detected in sheet
+2025-06-19 19:35:08,166 - INFO - No changes detected in sheet
+2025-06-19 19:36:08,563 - INFO - No changes detected in sheet
+2025-06-19 19:37:09,314 - INFO - No changes detected in sheet
+2025-06-19 19:38:09,816 - INFO - No changes detected in sheet
+2025-06-19 19:39:10,215 - INFO - No changes detected in sheet
+2025-06-19 19:40:10,615 - INFO - No changes detected in sheet
+2025-06-19 19:41:11,040 - INFO - No changes detected in sheet
+2025-06-19 19:42:11,528 - INFO - No changes detected in sheet
+2025-06-19 19:43:11,950 - INFO - No changes detected in sheet
+2025-06-19 19:44:12,382 - INFO - No changes detected in sheet
+2025-06-19 19:45:12,968 - INFO - No changes detected in sheet
+2025-06-19 19:46:13,457 - INFO - No changes detected in sheet
+2025-06-19 19:47:14,036 - INFO - No changes detected in sheet
+2025-06-19 19:48:14,457 - INFO - No changes detected in sheet
+2025-06-19 19:49:14,856 - INFO - No changes detected in sheet
+2025-06-19 19:50:15,372 - INFO - No changes detected in sheet
+2025-06-19 19:51:15,805 - INFO - No changes detected in sheet
+2025-06-19 19:52:16,327 - INFO - No changes detected in sheet
+2025-06-19 19:53:16,740 - INFO - No changes detected in sheet
+2025-06-19 19:54:17,146 - INFO - No changes detected in sheet
+2025-06-19 19:55:17,554 - INFO - No changes detected in sheet
+2025-06-19 19:56:18,028 - INFO - No changes detected in sheet
+2025-06-19 19:57:18,531 - INFO - No changes detected in sheet
+2025-06-19 19:58:18,937 - INFO - No changes detected in sheet
+2025-06-19 19:59:19,368 - INFO - No changes detected in sheet
+2025-06-19 20:00:19,880 - INFO - No changes detected in sheet
+2025-06-19 20:01:20,291 - INFO - No changes detected in sheet
+2025-06-19 20:02:20,785 - INFO - No changes detected in sheet
+2025-06-19 20:03:21,380 - INFO - No changes detected in sheet
+2025-06-19 20:04:21,796 - INFO - No changes detected in sheet
+2025-06-19 20:05:22,371 - INFO - No changes detected in sheet
+2025-06-19 20:06:22,757 - INFO - No changes detected in sheet
+2025-06-19 20:07:23,259 - INFO - No changes detected in sheet
+2025-06-19 20:08:23,658 - INFO - No changes detected in sheet
+2025-06-19 20:09:24,684 - INFO - No changes detected in sheet
+2025-06-19 20:10:25,100 - INFO - No changes detected in sheet
+2025-06-19 20:11:25,555 - INFO - No changes detected in sheet
+2025-06-19 20:12:26,266 - INFO - No changes detected in sheet
+2025-06-19 20:13:26,664 - INFO - No changes detected in sheet
+2025-06-19 20:14:27,050 - INFO - No changes detected in sheet
+2025-06-19 20:15:27,450 - INFO - No changes detected in sheet
+2025-06-19 20:16:27,830 - INFO - No changes detected in sheet
+2025-06-19 20:17:28,524 - INFO - No changes detected in sheet
+2025-06-19 20:18:28,975 - INFO - No changes detected in sheet
+2025-06-19 20:19:29,449 - INFO - No changes detected in sheet
+2025-06-19 20:20:29,925 - INFO - No changes detected in sheet
+2025-06-19 20:21:30,448 - INFO - No changes detected in sheet
+2025-06-19 20:22:31,057 - INFO - No changes detected in sheet
+2025-06-19 20:23:31,535 - INFO - No changes detected in sheet
+2025-06-19 20:24:32,163 - INFO - No changes detected in sheet
+2025-06-19 20:25:32,582 - INFO - No changes detected in sheet
+2025-06-19 20:26:33,009 - INFO - No changes detected in sheet
+2025-06-19 20:27:33,547 - INFO - No changes detected in sheet
+2025-06-19 20:28:33,932 - INFO - No changes detected in sheet
+2025-06-19 20:29:34,401 - INFO - No changes detected in sheet
